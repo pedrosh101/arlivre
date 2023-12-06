@@ -22,6 +22,9 @@ export default function Home() {
           <p className="text-end">contemporaneidade</p>
         </div>
       </main>
+      <div className="flex justify-center bg-red-300 text-red-100 font-parag text-sm py-0.5">
+        <p>© 2023 Ar Livre</p>
+      </div>
     </>
   );
 }

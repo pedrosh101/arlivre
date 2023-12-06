@@ -52,7 +52,10 @@ const Navbar = () => {
           width={120}
         ></Image>
       </Link>
-      <div onClick={toggleNav} className="text-2xl cursor-pointer place-self-center">
+      <div
+        onClick={toggleNav}
+        className="text-2xl cursor-pointer place-self-center"
+      >
         <svg fill="none" viewBox="0 0 24 24" height="1.5em">
           <path
             fill="black"
@@ -71,9 +74,15 @@ const Navbar = () => {
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <p className="cursor-pointer">Narrar, Cartografar</p>
-          <p className="cursor-pointer">Mutações em Tempo Presente</p>
-          <p className="cursor-pointer">Híbridos, Performáticos</p>
+          <Link href="/colecoes/narrar-cartografar">
+            <p className="cursor-pointer">Narrar, Cartografar</p>
+          </Link>
+          <Link href="/colecoes/mutacoes-em-tempo-presente">
+            <p className="cursor-pointer">Mutações em Tempo Presente</p>
+          </Link>
+          <Link href="/colecoes/hibridos">
+            <p className="cursor-pointer">Híbridos, Performáticos</p>
+          </Link>
         </div>
       </div>
     </div>
