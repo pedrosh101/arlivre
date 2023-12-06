@@ -20,24 +20,28 @@ const Colecoes = ({ title, img, img2, texto }: any) => {
               <h2>ADQUIRIR</h2>
             </div>
           </Link>
-          ,
-          <div className="flex">
-            <div className="relative h-72 mt-12 sm:mt-0 w-96">
-              <Image
-                src={img}
-                alt="Highlighted"
-                fill
-                className="object-contain transition-opacity duration-700"
-              />
+
+          <div className="flex flex-col sm:flex-row space-y-12 sm:space-y-0 pb-6 sm:pb-0">
+            <div className="relative h-72 sm:mt-0 w-96">
+              {img && (
+                <Image
+                  src={img}
+                  alt="Highlighted"
+                  fill
+                  className="object-contain transition-opacity duration-700"
+                />
+              )}
             </div>
-            <div className="relative h-72 mt-12 sm:mt-0 w-96">
-              {img2 && <Image
-                src={img2}
-                alt="Highlighted"
-                fill
-                className="object-contain transition-opacity duration-700"
-              />}
-            </div>
+            {img2 && (
+              <div className="relative h-72 sm:mt-0 w-96">
+                <Image
+                  src={img2}
+                  alt="Highlighted"
+                  fill
+                  className="object-contain transition-opacity duration-700"
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="flex justify-center bg-red-300 text-red-100 font-parag text-sm py-0.5">
