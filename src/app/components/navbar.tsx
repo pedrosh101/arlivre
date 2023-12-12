@@ -43,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full place-content-between font-parag text-xl bg-amber-400 py-6 px-4 sm:px-12">
+    <div className="flex w-full place-content-between font-parag text-xl bg-amber-400 sm:py-6 py-2 px-4 sm:px-12">
       <Link href="/">
         <Image
           src="https://i.imgur.com/CmRKJCU.png"
