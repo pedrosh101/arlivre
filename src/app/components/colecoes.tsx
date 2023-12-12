@@ -7,7 +7,7 @@ import Link from "next/link";
 const Colecoes = ({ title, img, img2, texto }: any) => {
   return (
     <>
-      <main className="bg-orange-200 text-lg font-extralight text-black">
+      <main className="bg-orange-400 text-lg font-extralight text-black">
         <Navbar />
         <div className="flex w-full pl-4 sm:pl-24 pr-8 sm:pr-24 pt-6 sm:pt-8"></div>
 

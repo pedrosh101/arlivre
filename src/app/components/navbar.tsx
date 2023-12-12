@@ -43,13 +43,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex w-full place-content-between font-parag text-xl bg-orange-200 py-6 px-6 sm:px-20">
+    <div className="flex w-full place-content-between font-parag text-xl bg-amber-400 py-6 px-4 sm:px-12">
       <Link href="/">
         <Image
           src="https://i.imgur.com/CmRKJCU.png"
-          alt="trickster"
+          alt="arlivre"
           height={190}
-          width={120}
+          width={100}
         ></Image>
       </Link>
       <div
@@ -70,19 +70,40 @@ const Navbar = () => {
       >
         <div
           ref={navRef}
-          className={`fixed flex flex-col space-y-6 right-0 top-0 h-full w-72 sm:w-80 p-10 bg-orange-100 shadow transition-transform transform duration-700 text-black ${
+          className={`fixed flex flex-col right-0 top-0 h-full w-72 sm:w-80 p-10 bg-blue-500 shadow transition-transform transform duration-700 text-white ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <Link href="/colecoes/narrar-cartografar">
-            <p className="cursor-pointer">Narrar, Cartografar</p>
-          </Link>
-          <Link href="/colecoes/mutacoes-em-tempo-presente">
-            <p className="cursor-pointer">Mutações em Tempo Presente</p>
-          </Link>
-          <Link href="/colecoes/hibridos">
-            <p className="cursor-pointer">Híbridos, Performáticos</p>
-          </Link>
+          <section>
+            <h2 className="pb-4 text-2xl font-semibold">Coleções</h2>
+            <ul className="flex flex-col space-y-4 font-light">
+              <Link href="/colecoes/narrar-cartografar">
+                <li className="cursor-pointer hover:text-red-200">
+                  Narrar, Cartografar
+                </li>
+              </Link>
+              <Link href="/colecoes/mutacoes-em-tempo-presente">
+                <li className="cursor-pointer hover:text-red-200">
+                  Mutações em Tempo Presente
+                </li>
+              </Link>
+              <Link href="/colecoes/hibridos">
+                <li className="cursor-pointer hover:text-red-200">
+                  Híbridos, Performáticos
+                </li>
+              </Link>
+            </ul>
+          </section>
+          <section className="mt-16">
+            <h2 className="pb-4 text-2xl font-semibold">Comitê Editorial</h2>
+            <ul className="flex flex-col space-y-4 font-light">
+              <Link href="/autores">
+                <li className="cursor-pointer hover:text-red-200">
+                  Autores
+                </li>
+              </Link>
+            </ul>
+          </section>
         </div>
       </div>
     </div>
