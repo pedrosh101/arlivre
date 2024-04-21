@@ -32,7 +32,9 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="flex sm:flex-col w-full justify-between font-parag text-xl bg-clr2">
+    <main className="flex sm:flex-col w-full font-parag text-xl bg-clr1 text-clr3">
+      <div className="flex w-full">
+
       <Link href="/" className="w-fit">
         <Image
           src="https://i.imgur.com/CmRKJCU.png"
@@ -42,7 +44,10 @@ const Navbar = () => {
           className="sm:ml-12 ml-4 py-4"
         ></Image>
       </Link>
-      <div className="h-[1px] w-full bg-red-500 sm:block hidden"/>
+
+      
+      </div>
+      {/* <div className="h-[1px] w-full bg-red-500 sm:block hidden"/> */}
       <div className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer" onClick={toggleNav}>
         <svg fill="none" viewBox="0 0 24 24" height="1.5em">
           <path
@@ -52,21 +57,21 @@ const Navbar = () => {
         </svg>
       </div>
       {/* desktop */}
-      <nav className="hidden sm:flex space-x-16 py-4 bg-clr1 justify-center">
+      <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 justify-center">
         <Link href="/colecoes/narrar-cartografar">
-          <h1 className="hover:text-red-200">Ar Livre Edições</h1>
+          <h1 className="hover:text-green-800">Ar Livre Edições</h1>
         </Link>
         <Link href="/colecoes/mutacoes-em-tempo-presente">
-          <h1 className="hover:text-red-200">Coleções</h1>
+          <h1 className="hover:text-green-800">Coleções</h1>
         </Link>
         <Link href="/colecoes/hibridos">
-          <h1 className="hover:text-red-200">(Textos Híbridos)</h1>
+          <h1 className="hover:text-green-800">(Textos Híbridos)</h1>
         </Link>
         <Link href="/autores">
-          <h1 className="hover:text-red-200">Lançamentos</h1>
+          <h1 className="hover:text-green-800">Lançamentos</h1>
         </Link>
         <Link href="/autores">
-          <h1 className="hover:text-red-200">Autores</h1>
+          <h1 className="hover:text-green-800">Autores</h1>
         </Link>
       </nav>
       {/* mobile */}
@@ -117,7 +122,7 @@ const Navbar = () => {
         </div>
       )}
    
-    </div>
+    </main>
   );
 };
 

@@ -15,7 +15,9 @@ export default function Home() {
             "url('https://buypopart.com/Art.nsf/O/AE3MGJ/$File/David-Hockney-Red-pots-in-the-garden.jpg')",
         }}
       >
-        <div className="bg-clr1 w-12 hidden sm:block"></div>
+
+        {/* faixa esquerda */}
+        <div className="bg-clr2 w-12 hidden sm:block" />
 
         {/* content */}
         <div className="flex flex-col sm:flex-row w-full sm:p-4  px-4 pt-4 sm:space-x-4">
@@ -28,9 +30,12 @@ export default function Home() {
             notícias
           </div>
         </div>
-        <div className="bg-clr1 w-12 hidden sm:block"></div>
+
+        {/* faixa direita */}
+        <div className="bg-clr2 w-12 hidden sm:block" />
       </main>
-      <div className="flex justify-center bg-clr1 text-red-100 font-parag text-sm py-0.5">
+      
+      <div className="flex justify-center bg-clr2 text-clr3 font-parag text-sm h-12 items-center">
         <p>© 2024 Ar Livre</p>
       </div>
     </>
