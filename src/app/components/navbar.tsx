@@ -1,4 +1,3 @@
-// components/NavToggle.tsx
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,18 +6,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef<HTMLDivElement | null>(null);
 
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      navRef.current &&
-      !(navRef.current as Node).contains(event.target as Node)
-    ) {
-      setIsOpen(false);
-      document.removeEventListener("mousedown", handleClickOutside);
-    }
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
   };
 
   useEffect(() => {
-    const handleClick = (event: MouseEvent) => {
+    const handleClickOutside = (event: MouseEvent) => {
       if (
         navRef.current &&
         !(navRef.current as Node).contains(event.target as Node)
@@ -28,34 +21,29 @@ const Navbar = () => {
     };
 
     if (isOpen) {
-      document.addEventListener("mousedown", handleClick);
+      document.addEventListener("mousedown", handleClickOutside);
     } else {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("mousedown", handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClick);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isOpen]);
 
-  const toggleNav = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <div className="flex w-full place-content-between font-parag text-xl bg-amber-400 sm:py-6 py-2 px-4 sm:px-12">
-      <Link href="/">
+    <div className="flex sm:flex-col w-full justify-between font-parag text-xl bg-clr2">
+      <Link href="/" className="w-fit">
         <Image
           src="https://i.imgur.com/CmRKJCU.png"
           alt="arlivre"
           height={190}
           width={100}
+          className="sm:ml-12 ml-4 py-4"
         ></Image>
       </Link>
-      <div
-        onClick={toggleNav}
-        className="text-2xl cursor-pointer place-self-center"
-      >
+      <div className="h-[1px] w-full bg-red-500 sm:block hidden"/>
+      <div className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer" onClick={toggleNav}>
         <svg fill="none" viewBox="0 0 24 24" height="1.5em">
           <path
             fill="black"
@@ -63,49 +51,72 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <div
-        className={`fixed inset-0 bg-black bg-opacity-75 z-50 transition-opacity duration-700 ${
-          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-      >
-        <div
-          ref={navRef}
-          className={`fixed flex flex-col right-0 top-0 h-full w-72 sm:w-80 p-10 bg-blue-500 shadow transition-transform transform duration-700 text-white ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-        >
-          <section>
-            <h2 className="pb-4 text-2xl font-semibold">Coleções</h2>
-            <ul className="flex flex-col space-y-4 font-light">
-              <Link href="/colecoes/narrar-cartografar">
-                <li className="cursor-pointer hover:text-red-200">
-                  Narrar, Cartografar
-                </li>
-              </Link>
-              <Link href="/colecoes/mutacoes-em-tempo-presente">
-                <li className="cursor-pointer hover:text-red-200">
-                  Mutações em Tempo Presente
-                </li>
-              </Link>
-              <Link href="/colecoes/hibridos">
-                <li className="cursor-pointer hover:text-red-200">
-                  Híbridos, Performáticos
-                </li>
-              </Link>
-            </ul>
-          </section>
-          <section className="mt-16">
-            <h2 className="pb-4 text-2xl font-semibold">Comitê Editorial</h2>
-            <ul className="flex flex-col space-y-4 font-light">
-              <Link href="/autores">
-                <li className="cursor-pointer hover:text-red-200">
+      {/* desktop */}
+      <nav className="hidden sm:flex space-x-16 py-4 bg-clr1 justify-center">
+        <Link href="/colecoes/narrar-cartografar">
+          <h1 className="hover:text-red-200">Ar Livre Edições</h1>
+        </Link>
+        <Link href="/colecoes/mutacoes-em-tempo-presente">
+          <h1 className="hover:text-red-200">Coleções</h1>
+        </Link>
+        <Link href="/colecoes/hibridos">
+          <h1 className="hover:text-red-200">(Textos Híbridos)</h1>
+        </Link>
+        <Link href="/autores">
+          <h1 className="hover:text-red-200">Lançamentos</h1>
+        </Link>
+        <Link href="/autores">
+          <h1 className="hover:text-red-200">Autores</h1>
+        </Link>
+      </nav>
+      {/* mobile */}
+      {isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 z-50">
+          <div ref={navRef} className="flex flex-col h-full w-72 p-10 bg-blue-500 shadow text-white">
+            <section>
+              <h2 className="pb-4 text-2xl font-semibold">Coleções</h2>
+              <ul className="flex flex-col space-y-4 font-light">
+                <Link href="/colecoes/narrar-cartografar">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                  Ar Livre Edições
+                  </li>
+                </Link>
+                <Link href="/colecoes/mutacoes-em-tempo-presente">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                  Coleções 
+                  </li>
+                </Link>
+                <Link href="/colecoes/hibridos">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                  (Textos Híbridos)
+                  </li>
+                </Link>
+                <Link href="/colecoes/hibridos">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                  Lançamentos 
+                  </li>
+                </Link>
+                <Link href="/colecoes/hibridos">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
                   Autores
-                </li>
-              </Link>
-            </ul>
-          </section>
+                  </li>
+                </Link>
+              </ul>
+            </section>
+            <section className="mt-16">
+              <h2 className="pb-4 text-2xl font-semibold">Comitê Editorial</h2>
+              <ul className="flex flex-col space-y-4 font-light">
+                <Link href="/autores">
+                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                    Autores
+                  </li>
+                </Link>
+              </ul>
+            </section>
+          </div>
         </div>
-      </div>
+      )}
+   
     </div>
   );
 };

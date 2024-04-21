@@ -13,6 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        clr1: '#0079FF',
+        clr2: '#00DFA2',
+        clr3: '#F6FA70',
+        clr4: '#FF0060',
+      },
       fontFamily:{
         gotham: ["GOTHAM"]
       }
