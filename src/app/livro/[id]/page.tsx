@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { projects } from "../../data/projects";
 import Navbar from "@/app/components/navbar";
+import Link from "next/link";
 
 const Livro = ({ params }: any) => {
-  const livro = projects.find((proj) => proj.id.toString() === params.id);
+  const livro = projects.find((proj: any) => proj.id.toString() === params.id);
 
   return (
     <>
@@ -31,17 +32,23 @@ const Livro = ({ params }: any) => {
               <h1 className="text-base font-medium pb-4">
                 {livro?.description}
               </h1>
-              <button className="bg-clr1 hover:bg-pink-400 text-black py-2 px-4 rounded w-fit shadow-md">
+              <button className="bg-clr1 hover:bg-pink-400 text-black py-2 px-4 rounded-sm w-fit shadow-md">
                 Comprar
               </button>
             </div>
           </div>
-          <div className="h-0.5 w-full bg-gray-800 sm:block hidden" />
+          <div className="h-0.5 w-full bg-clr2 sm:block hidden" />
           {/* info */}
           <div className="flex sm:flex-row flex-col w-full justify-between sm:p-0 p-4 sm:text-center sm:py-12 py-8 space-y-2 sm:space-y-0">
             <div>
               <h1 className="font-semibold text-clr2">Categoria:</h1>
-              <h1>{livro?.category}</h1>
+              <Link
+                href={{
+                  pathname: `../colecoes/${livro?.categorylink}`,
+                }}
+              >
+                <h1>{livro?.category}</h1>
+              </Link>
             </div>
             <div>
               <h1 className="font-semibold text-clr2">Ano:</h1>
@@ -52,7 +59,7 @@ const Livro = ({ params }: any) => {
               <h1>{livro?.pag}</h1>
             </div>
           </div>
-          <div className="h-0.5 w-full bg-gray-800 sm:block hidden" />
+          <div className="h-0.5 w-full bg-clr2 sm:block hidden" />
         </div>
       </main>
     </>

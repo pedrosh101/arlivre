@@ -32,23 +32,23 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <main className="flex sm:flex-col w-full font-parag text-xl bg-clr1 text-clr3">
-      <div className="flex w-full">
-
-      <Link href="/" className="w-fit">
-        <Image
-          src="https://i.imgur.com/CmRKJCU.png"
-          alt="arlivre"
-          height={190}
-          width={100}
-          className="sm:ml-12 ml-4 py-4"
-        ></Image>
-      </Link>
-
-      
+    <main className="flex sm:flex-col w-full font-parag text-xl bg-clr1 text-black">
+      <div className="flex w-full justify-center">
+        <Link href="/" className="w-fit">
+          <Image
+            src="https://i.imgur.com/CmRKJCU.png"
+            alt="arlivre"
+            height={190}
+            width={100}
+            className="sm:ml-12 ml-4 py-6"
+          ></Image>
+        </Link>
       </div>
       {/* <div className="h-[1px] w-full bg-red-500 sm:block hidden"/> */}
-      <div className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer" onClick={toggleNav}>
+      <div
+        className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer"
+        onClick={toggleNav}
+      >
         <svg fill="none" viewBox="0 0 24 24" height="1.5em">
           <path
             fill="black"
@@ -59,51 +59,56 @@ const Navbar = () => {
       {/* desktop */}
       <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 justify-center">
         <Link href="/colecoes/narrar-cartografar">
-          <h1 className="hover:text-green-800">Ar Livre Edições</h1>
+          <h1 className="hover:text-gray-800">
+            Narrar, Cartografar (Narrativas)
+          </h1>
         </Link>
         <Link href="/colecoes/mutacoes-em-tempo-presente">
-          <h1 className="hover:text-green-800">Coleções</h1>
+          <h1 className="hover:text-gray-800">
+            Mutações em Tempo Presente (Ensaios)
+          </h1>
         </Link>
         <Link href="/colecoes/hibridos">
-          <h1 className="hover:text-green-800">(Textos Híbridos)</h1>
+          <h1 className="hover:text-gray-800">
+            Ambulante (Escritas Híbridas)
+          </h1>
         </Link>
         <Link href="/autores">
-          <h1 className="hover:text-green-800">Lançamentos</h1>
-        </Link>
-        <Link href="/autores">
-          <h1 className="hover:text-green-800">Autores</h1>
+          <h1 className="hover:text-gray-800">Autores</h1>
         </Link>
       </nav>
       {/* mobile */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-75 z-50">
-          <div ref={navRef} className="flex flex-col h-full w-72 p-10 bg-blue-500 shadow text-white">
+          <div
+            ref={navRef}
+            className="flex flex-col h-full w-72 p-10 bg-blue-500 shadow text-white"
+          >
             <section>
               <h2 className="pb-4 text-2xl font-semibold">Coleções</h2>
               <ul className="flex flex-col space-y-4 font-light">
                 <Link href="/colecoes/narrar-cartografar">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
-                  Ar Livre Edições
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
+                    Narrar, Cartografar (Narrativas)
                   </li>
                 </Link>
                 <Link href="/colecoes/mutacoes-em-tempo-presente">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
-                  Coleções 
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
+                    Mutações em Tempo Presente (Ensaios)
                   </li>
                 </Link>
                 <Link href="/colecoes/hibridos">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
-                  (Textos Híbridos)
-                  </li>
-                </Link>
-                <Link href="/colecoes/hibridos">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
-                  Lançamentos 
-                  </li>
-                </Link>
-                <Link href="/colecoes/hibridos">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
-                  Autores
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
+                    Ambulante (Escritas Híbridas)
                   </li>
                 </Link>
               </ul>
@@ -112,7 +117,10 @@ const Navbar = () => {
               <h2 className="pb-4 text-2xl font-semibold">Comitê Editorial</h2>
               <ul className="flex flex-col space-y-4 font-light">
                 <Link href="/autores">
-                  <li className="cursor-pointer hover:text-red-200" onClick={toggleNav}>
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
                     Autores
                   </li>
                 </Link>
@@ -121,7 +129,6 @@ const Navbar = () => {
           </div>
         </div>
       )}
-   
     </main>
   );
 };

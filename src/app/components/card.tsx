@@ -8,10 +8,10 @@ interface Project {
   title: string;
   description: string;
   category: string;
+  categorylink: string;
   img: string;
   ano: string;
   price: string;
-  link: string;
 }
 
 interface ProjectCardProps {
@@ -23,7 +23,6 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
     <div className="flex flex-col justify-between text-center h-96 flex-1 m-1 p-4 border border-gray-300 space-y-1 bg-clr3 rounded-md items-center text-white">
       <div className={twMerge("relative overflow-hidden h-44 w-full")}>
         <Link
-          key={project.id}
           href={{
             pathname: `/livro/${project.id}`,
           }}
@@ -36,25 +35,30 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
           />
         </Link>
       </div>
-      <h2 className="text-xl font-semibold">
-        <Link
-          key={project.id}
-          href={{
-            pathname: `/livro/${project.id}`,
-          }}
-        >
-          {project.title}
-        </Link>
-      </h2>
-      <p className="text-sm text-clr2">{project.category}</p>
-      <p className="text-sm">{project.price}</p>
+
       <Link
-        key={project.id}
         href={{
           pathname: `/livro/${project.id}`,
         }}
       >
-        <button className="text-sm w-fit p-3 bg-clr1 text-black  rounded-md shadow-md hover:bg-pink-400">
+        <h2 className="text-xl font-semibold">{project.title}</h2>
+      </Link>
+
+      <Link
+        href={{
+          pathname: `/colecoes/${project.categorylink}`,
+        }}
+      >
+        <h2 className="text-sm text-clr2">{project.category}</h2>
+      </Link>
+
+      <p className="text-sm">{project.price}</p>
+      <Link
+        href={{
+          pathname: `/livro/${project.id}`,
+        }}
+      >
+        <button className="text-sm w-fit py-2 px-3 bg-clr1 text-black  rounded-sm shadow-md hover:bg-pink-400">
           COMPRAR
         </button>
       </Link>

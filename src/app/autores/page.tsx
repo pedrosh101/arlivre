@@ -17,16 +17,15 @@ function Page() {
 
   return (
     <>
-      <main className="bg-orange-400 text-lg font-extralight text-black h-screen">
-        <Navbar />
+      <Navbar />
+      <main className="bg-clr3 text-lg text-black h-screen">
         <section className="flex">
-          <div className="relative">
+          <div className="flex flex-1/2">
             <svg
-              className="absolute"
-              width="1000"
-              height="1000"
+              width="50vw"
+              height="100vh"
               viewBox="0 0 400 400"
-              xmlns="http://www.w3.org/2000/svg"
+      
             >
               {[...Array(26)].map((_, index) => (
                 <motion.circle
@@ -46,6 +45,9 @@ function Page() {
                 />
               ))}
             </svg>
+          </div>
+          <div className="flex w-full flex-1/2 p-28">
+            <h1 className="text-white">Autores</h1>
           </div>
         </section>
       </main>
