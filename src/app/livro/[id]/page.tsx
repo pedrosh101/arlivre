@@ -11,11 +11,11 @@ const Livro = ({ params }: any) => {
   return (
     <>
       <Navbar />
-      <main className="flex w-full min-h-screen text-white bg-clr3 justify-center">
+      <main className="flex w-full min-h-screen text-white bg-clr3 justify-center px-4">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10">
-          <div className="flex sm:flex-row flex-col h-5/6 px-4 sm:px-0 sm:space-x-24 space-x-0 ">
+          <div className="flex sm:flex-row flex-col h-5/6 sm:space-x-24 space-x-0 ">
             {/* left */}
-            <div className="flex w-1/2 sm:h-full h-72 sm:mb-0 mb-8">
+            <div className="flex sm:w-2/5 sm:h-full h-72 sm:mb-0 mb-8">
               <div className="relative w-96">
                 <Image
                   src={livro?.img!}
@@ -26,7 +26,7 @@ const Livro = ({ params }: any) => {
               </div>
             </div>
             {/* right */}
-            <div className="flex flex-col sm:w-1/2 space-y-4 font-semibold">
+            <div className="flex flex-col sm:w-3/5 space-y-4 font-semibold">
               <h1 className="text-4xl">{livro?.title}</h1>
               <h1 className="text-base font-semibold">{livro?.author}</h1>
               <h1 className="text-base font-medium pb-4">
@@ -39,7 +39,7 @@ const Livro = ({ params }: any) => {
           </div>
           {/* info */}
           <div className="h-0.5 w-full bg-clr2 sm:block hidden mt-12" />
-          <div className="flex sm:flex-row flex-col w-full justify-between sm:p-0 p-4 sm:text-center sm:py-12 py-8 space-y-2 sm:space-y-0">
+          <div className="flex sm:flex-row flex-col w-full justify-between sm:text-center sm:py-12 py-8 space-y-2 sm:space-y-0">
             <div>
               <h1 className="font-semibold text-clr2">Categoria:</h1>
               <Link

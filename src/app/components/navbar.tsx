@@ -50,7 +50,7 @@ const Navbar = () => {
         className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer"
         onClick={toggleNav}
       >
-        <svg fill="none" className="absolute top-10 right-7" viewBox="0 0 24 24" height="1.5em">
+        <svg fill="none" className="absolute top-10 right-5" viewBox="0 0 24 24" height="1.5em">
           <path
             fill="black"
             d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 000 4zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
