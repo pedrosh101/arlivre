@@ -13,7 +13,7 @@ const Noticia = ({ params }: any) => {
       <Navbar />
       <main className="flex w-full text-white bg-clr3 justify-center">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10">
-          <div className="flex flex-col sm:space-x-24 space-x-0 px-4 sm:px-0">
+          <div className="flex flex-col space-x-0 px-4 sm:px-0">
             {/* text */}
             <div className="flex flex-col space-y-4 font-semibold">
               <h1 className="text-4xl">{noticia?.title}</h1>
@@ -23,14 +23,14 @@ const Noticia = ({ params }: any) => {
               </h1>
             </div>
             {/* img */}
-            <div className="flex sm:h-[40em] h-72 sm:mb-0 mb-8 pt-6">
+            <div className="flex sm:mb-0 mb-8 pt-6">
               {noticia?.img.map((img, index) => (
-                <div key={index} className="relative w-1/2">
+                <div key={index} className="flex relative w-full sm:h-[34rem] h-72">
                   <Image
                     src={img}
                     alt="img"
                     fill
-                    className="object-contain sm:object-top"
+                    className="object-contain sm:object-top px-4"
                   />
                 </div>
               ))}

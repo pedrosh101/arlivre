@@ -20,7 +20,7 @@ interface ProjectCardProps {
 
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="flex flex-col justify-between text-center h-96 flex-1 m-1 p-4 border border-gray-300 space-y-1 bg-clr3 rounded-md items-center text-white">
+    <div className="flex flex-col justify-between text-center h-[25rem] flex-1 m-1 p-4 border border-gray-300 bg-clr3 rounded-md items-center text-white">
       <div className={twMerge("relative overflow-hidden h-44 w-full")}>
         <Link
           href={{
@@ -58,7 +58,7 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
           pathname: `/livro/${project.id}`,
         }}
       >
-        <button className="text-sm w-fit py-2 px-3 bg-clr1 text-black  rounded-sm shadow-md hover:bg-pink-400">
+        <button className="text-sm w-fit py-2 px-3 bg-clr1 text-black rounded-sm shadow-md hover:bg-pink-400">
           COMPRAR
         </button>
       </Link>

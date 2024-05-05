@@ -33,16 +33,18 @@ const Navbar = () => {
 
   return (
     <main className="flex sm:flex-col w-full font-parag text-xl bg-clr1 text-black">
-      <div className="flex w-full justify-center">
+      <div className="flex w-full justify-center items-center text-sm space-x-2">
+        <h1 className="lg:block hidden">Ar Livre</h1>
         <Link href="/" className="w-fit">
           <Image
             src="https://i.imgur.com/CmRKJCU.png"
             alt="arlivre"
             height={190}
             width={100}
-            className="sm:ml-12 ml-4 py-6"
+            className="py-6"
           ></Image>
         </Link>
+        <h1 className="lg:block hidden">Edições</h1>
       </div>
       {/* <div className="h-[1px] w-full bg-red-500 sm:block hidden"/> */}
       <div

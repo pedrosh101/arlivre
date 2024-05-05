@@ -14,7 +14,7 @@ export default function Home() {
         className="flex justify-between min-h-screen text-black sm:text-5xl text-4xl bg-cover bg-no-repeat bg-top"
         style={{
           backgroundImage:
-            "url('https://buypopart.com/Art.nsf/O/AE3MGJ/$File/David-Hockney-Red-pots-in-the-garden.jpg')",
+            "url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Bos_met_kreupelhout_-_s0066V1962_-_Van_Gogh_Museum.jpg')",
         }}
       >
         {/* faixa esquerda */}
@@ -23,14 +23,14 @@ export default function Home() {
         {/* content */}
         <div className="flex flex-col sm:flex-row w-full sm:p-4 px-4 pt-4 sm:space-x-4">
           {/* livros */}
-          <div className="grid sm:grid-cols-3 grid-cols-1 sm:w-4/6 bg-sky-500/75 mb-4 sm:mb-0">
+          <div className="grid sm:grid-cols-3 grid-cols-1 sm:w-4/6 bg-slate-100/20 mb-4 sm:mb-0 auto-rows-min">
             {projects.map((livro) => (
               <Card key={livro.id} project={livro}></Card>
             ))}
           </div>
 
           {/* notícias */}
-          <div className="flex justify-center sm:w-2/6 bg-sky-500/75 mb-4 sm:mb-0">
+          <div className="flex justify-center sm:w-2/6 bg-slate-100/20 mb-4 sm:mb-0">
             {noticias.map((noticia) => (
               <News key={noticia.id} new={noticia}></News>
             ))}

@@ -37,8 +37,8 @@ const Livro = ({ params }: any) => {
               </button>
             </div>
           </div>
-          <div className="h-0.5 w-full bg-clr2 sm:block hidden" />
           {/* info */}
+          <div className="h-0.5 w-full bg-clr2 sm:block hidden mt-12" />
           <div className="flex sm:flex-row flex-col w-full justify-between sm:p-0 p-4 sm:text-center sm:py-12 py-8 space-y-2 sm:space-y-0">
             <div>
               <h1 className="font-semibold text-clr2">Categoria:</h1>
