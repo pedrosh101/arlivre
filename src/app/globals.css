@@ -7,6 +7,11 @@
   src: url("../../public/fonts/Gotham-Light.otf");
 }
 
+@font-face {
+  font-family: "AGRANDIR";
+  src: url("../../public/fonts/Agrandir-GrandLight.otf");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

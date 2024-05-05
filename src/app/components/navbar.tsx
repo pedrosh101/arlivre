@@ -32,9 +32,9 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <main className="flex sm:flex-col w-full font-parag text-xl bg-clr1 text-black">
-      <div className="flex w-full justify-center items-center text-sm space-x-2">
-        <h1 className="lg:block hidden">Ar Livre</h1>
+    <main className="flex sm:flex-col w-full font-parag text-xl bg-lime-400 text-black">
+      <div className="flex w-full justify-center items-center text-sm font-agrandir">
+        <h1 className="lg:block hidden cursor-default tracking-wider">Ar Livre</h1>
         <Link href="/" className="w-fit">
           <Image
             src="https://i.imgur.com/CmRKJCU.png"
@@ -44,14 +44,13 @@ const Navbar = () => {
             className="py-6"
           ></Image>
         </Link>
-        <h1 className="lg:block hidden">Edições</h1>
+        <h1 className="lg:block hidden pl-1 cursor-default tracking-wider">Edições</h1>
       </div>
-      {/* <div className="h-[1px] w-full bg-red-500 sm:block hidden"/> */}
       <div
         className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer"
         onClick={toggleNav}
       >
-        <svg fill="none" viewBox="0 0 24 24" height="1.5em">
+        <svg fill="none" className="absolute top-10 right-7" viewBox="0 0 24 24" height="1.5em">
           <path
             fill="black"
             d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 000 4zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
@@ -79,16 +78,17 @@ const Navbar = () => {
           <h1 className="hover:text-gray-800">Autores</h1>
         </Link>
       </nav>
+      
       {/* mobile */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-75 z-50">
           <div
             ref={navRef}
-            className="flex flex-col h-full w-72 p-10 bg-blue-500 shadow text-white"
+            className="flex flex-col text-center m-2 py-20 px-10 bg-clr2 shadow text-black"
           >
             <section>
               <h2 className="pb-4 text-2xl font-semibold">Coleções</h2>
-              <ul className="flex flex-col space-y-4 font-light">
+              <ul className="flex flex-col space-y-6 font-light">
                 <Link href="/colecoes/narrar-cartografar">
                   <li
                     className="cursor-pointer hover:text-red-200"

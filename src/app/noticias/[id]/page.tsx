@@ -8,6 +8,8 @@ import Navbar from "@/app/components/navbar";
 const Noticia = ({ params }: any) => {
   const noticia = noticias.find((proj) => proj.id.toString() === params.id);
 
+  
+
   return (
     <>
       <Navbar />
@@ -23,9 +25,9 @@ const Noticia = ({ params }: any) => {
               </h1>
             </div>
             {/* img */}
-            <div className="flex sm:mb-0 mb-8 pt-6">
+            <div className="flex sm:flex-row flex-col space-y-6 sm:space-y-0 sm:mb-0 mb-8 pt-6">
               {noticia?.img.map((img, index) => (
-                <div key={index} className="flex relative w-full sm:h-[34rem] h-72">
+                <div key={index} className="flex relative w-full sm:h-[38rem] h-96">
                   <Image
                     src={img}
                     alt="img"

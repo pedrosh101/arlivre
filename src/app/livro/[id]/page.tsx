@@ -13,7 +13,7 @@ const Livro = ({ params }: any) => {
       <Navbar />
       <main className="flex w-full min-h-screen text-white bg-clr3 justify-center">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10">
-          <div className="flex sm:flex-row flex-col h-5/6 sm:space-x-24 space-x-0 px-4 sm:px-0">
+          <div className="flex sm:flex-row flex-col h-5/6 px-4 sm:px-0 sm:space-x-24 space-x-0 ">
             {/* left */}
             <div className="flex w-1/2 sm:h-full h-72 sm:mb-0 mb-8">
               <div className="relative w-96">

@@ -8,7 +8,8 @@ export const noticias = [
       ano: "2023",
       pag: "120",
       price: "R$25,00",
-      img: ["/news/1.jpg", "/news/2.jpg"],
+      miniatureImg: "/news/3.jpg",
+      img: ["/news/1.jpg", "/news/2.jpg", "/news/3.jpg"],
       link: "/livro/bebete"
     },
   ];

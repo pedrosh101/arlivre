@@ -20,7 +20,8 @@ const config: Config = {
         clr4: '#FF0060',
       },
       fontFamily:{
-        gotham: ["GOTHAM"]
+        gotham: ["GOTHAM"],
+        agrandir: ["AGRANDIR"]
       }
     },
   },
