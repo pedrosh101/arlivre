@@ -71,12 +71,15 @@ const Navbar = () => {
         </Link>
         <Link href="/colecoes/hibridos">
           <h1 className="hover:text-gray-800">
-            Ambulante (Escritas Híbridas)
+            Ambulante (Escritas Performáticas)
           </h1>
         </Link>
         <Link href="/autores">
           <h1 className="hover:text-gray-800">Autores</h1>
         </Link>
+        {/* <Link href="/conta">
+          <h1 className="hover:text-gray-800">Conta</h1>
+        </Link> */}
       </nav>
       
       {/* mobile */}
@@ -110,14 +113,30 @@ const Navbar = () => {
                     className="cursor-pointer hover:text-red-200"
                     onClick={toggleNav}
                   >
-                    Ambulante (Escritas Híbridas)
+                    Ambulante (Escritas Performáticas)
                   </li>
                 </Link>
               </ul>
             </section>
             <section className="mt-16">
-              <h2 className="pb-4 text-2xl font-semibold">Comitê Editorial</h2>
+              <h2 className="pb-4 text-2xl font-semibold">Sobre a Editora</h2>
               <ul className="flex flex-col space-y-4 font-light">
+                <Link href="/autores">
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
+                    Apresentação
+                  </li>
+                </Link>
+                <Link href="/autores">
+                  <li
+                    className="cursor-pointer hover:text-red-200"
+                    onClick={toggleNav}
+                  >
+                    Comitê Editorial
+                  </li>
+                </Link>
                 <Link href="/autores">
                   <li
                     className="cursor-pointer hover:text-red-200"

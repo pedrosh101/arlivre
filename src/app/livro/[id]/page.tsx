@@ -13,7 +13,7 @@ const Livro = ({ params }: any) => {
       <Navbar />
       <main className="flex w-full min-h-screen text-white bg-clr3 justify-center px-4">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10">
-          <div className="flex sm:flex-row flex-col h-5/6 sm:space-x-24 space-x-0 ">
+          <div className="flex sm:flex-row flex-col h-5/6 sm:space-x-24">
             {/* left */}
             <div className="flex sm:w-2/5 sm:h-full h-72 sm:mb-0 mb-8">
               <div className="relative w-96">
@@ -47,7 +47,7 @@ const Livro = ({ params }: any) => {
                   pathname: `../colecoes/${livro?.categorylink}`,
                 }}
               >
-                <h1>{livro?.category}</h1>
+                <h1 className="w-fit">{livro?.category}</h1>
               </Link>
             </div>
             <div>

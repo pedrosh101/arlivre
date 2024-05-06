@@ -41,14 +41,14 @@ export const projects = [
   {
     id: 103,
     title: "Livro-Lápis",
-    author: "Mauricio Salles Vasconcelos",
+    author: "Mauricio Salles Vasconcelos - Carolina Zuppo Abed (Organizadores)",
     description:
       "Este livro reúne alguns textos de crítica (de arte e cultural) produzidos por integrantes dos Laboratórios de Criação Escrita de Literatura e Teoria - Linha de Pesquisa do Programa de Pós-graduação em Estudos Comparados de Literaturas de Língua Portuguesa (FFLCH/Universidade de São Paulo). Foram postados no site LÁPIS: https://www.lapislaboratorio.site/",
-    category: "Mutações em Tempo Presente",
-    categorylink: "mutacoes-em-tempo-presente",
-    ano: "2023",
+    category: "Ambulantes",
+    categorylink: "hibridos",
+    ano: "2024",
     pag: "120",
-    price: "R$50,00",
+    price: "R$60,00",
     img: "/img/4.jpeg",
   },
 ];
