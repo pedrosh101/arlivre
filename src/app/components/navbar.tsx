@@ -74,6 +74,9 @@ const Navbar = () => {
             Ambulante (Escritas Performáticas)
           </h1>
         </Link>
+        <Link href="/ar-livre">
+          <h1 className="hover:text-gray-800">Apresentação</h1>
+        </Link>
         <Link href="/autores">
           <h1 className="hover:text-gray-800">Autores</h1>
         </Link>

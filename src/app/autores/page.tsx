@@ -15,7 +15,7 @@ interface AuthorInfo {
 function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
-  const authors = ["Tiago Cfer", "Mauricio Salles Vasconcelos", "Autor 3"];
+  const authors = ["Tiago Cfer", "Mauricio Salles Vasconcelos"];
 
   const authorInfo: AuthorInfo = {
     "Tiago Cfer": {
