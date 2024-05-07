@@ -98,7 +98,7 @@ function Autores() {
           </div>
 
           {/* Lado direito */}
-          <div className="flex w-full flex-1/2 p-8 bg-clr3 text-white">
+          <div className="flex w-full flex-1/2 sm:p-8 p-0 bg-clr3 text-white">
             {selectedAuthor && (
               <div className="flex flex-col sm:items-center px-4 pt-0 sm:pt-12 pb-4 space-y-4">
                 <div className="flex mt-4 sm:mt-0">

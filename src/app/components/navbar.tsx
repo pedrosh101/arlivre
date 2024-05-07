@@ -121,7 +121,7 @@ const Navbar = () => {
             <section className="mt-16">
               <h2 className="pb-4 text-2xl font-semibold">Sobre a Editora</h2>
               <ul className="flex flex-col space-y-4 font-light">
-                <Link href="/autores">
+                <Link href="/ar-livre">
                   <li
                     className="cursor-pointer hover:text-red-200"
                     onClick={toggleNav}
