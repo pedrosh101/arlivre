@@ -4,10 +4,36 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
   const navRef = useRef<HTMLDivElement | null>(null);
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleDropdown = (dropdown: any) => {
+    setOpenDropdown(openDropdown === dropdown ? null : dropdown);
+  };
+
+  const dropdownLinks = {
+    colecoes: [
+      {
+        href: "/colecoes/narrar-cartografar",
+        label: "Narrar, Cartografar (Narrativas)",
+      },
+      {
+        href: "/colecoes/mutacoes-em-tempo-presente",
+        label: "Mutações em Tempo Presente (Ensaios)",
+      },
+      {
+        href: "/colecoes/hibridos",
+        label: "Ambulante (Escritas Performáticas)",
+      },
+    ],
+    sobre: [
+      { href: "/ar-livre", label: "Apresentação" },
+      { href: "/autores", label: "Autores" },
+    ],
   };
 
   useEffect(() => {
@@ -34,7 +60,9 @@ const Navbar = () => {
   return (
     <main className="flex sm:flex-col w-full font-parag text-xl bg-lime-400 text-black">
       <div className="flex w-full justify-center items-center text-sm font-agrandir">
-        <h1 className="lg:block hidden cursor-default tracking-wider">Ar Livre</h1>
+        <h1 className="lg:block hidden cursor-default tracking-wider">
+          Ar Livre
+        </h1>
         <Link href="/" className="w-fit">
           <Image
             src="https://i.imgur.com/CmRKJCU.png"
@@ -44,13 +72,20 @@ const Navbar = () => {
             className="py-6"
           ></Image>
         </Link>
-        <h1 className="lg:block hidden pl-1 cursor-default tracking-wider">Edições</h1>
+        <h1 className="lg:block hidden pl-1 cursor-default tracking-wider">
+          Edições
+        </h1>
       </div>
       <div
         className="sm:hidden flex items-center mr-4 text-2xl cursor-pointer"
         onClick={toggleNav}
       >
-        <svg fill="none" className="absolute top-10 right-5" viewBox="0 0 24 24" height="1.5em">
+        <svg
+          fill="none"
+          className="absolute top-10 right-5"
+          viewBox="0 0 24 24"
+          height="1.5em"
+        >
           <path
             fill="black"
             d="M8 6a2 2 0 11-4 0 2 2 0 014 0zM8 12a2 2 0 11-4 0 2 2 0 014 0zM6 20a2 2 0 100-4 2 2 0 000 4zM14 6a2 2 0 11-4 0 2 2 0 014 0zM12 14a2 2 0 100-4 2 2 0 000 4zM14 18a2 2 0 11-4 0 2 2 0 014 0zM18 8a2 2 0 100-4 2 2 0 000 4zM20 12a2 2 0 11-4 0 2 2 0 014 0zM18 20a2 2 0 100-4 2 2 0 000 4z"
@@ -59,32 +94,46 @@ const Navbar = () => {
       </div>
       {/* desktop */}
       <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 justify-center">
-        <Link href="/colecoes/narrar-cartografar">
-          <h1 className="hover:text-gray-800">
-            Narrar, Cartografar (Narrativas)
-          </h1>
-        </Link>
-        <Link href="/colecoes/mutacoes-em-tempo-presente">
-          <h1 className="hover:text-gray-800">
-            Mutações em Tempo Presente (Ensaios)
-          </h1>
-        </Link>
-        <Link href="/colecoes/hibridos">
-          <h1 className="hover:text-gray-800">
-            Ambulante (Escritas Performáticas)
-          </h1>
-        </Link>
-        <Link href="/ar-livre">
-          <h1 className="hover:text-gray-800">Apresentação</h1>
-        </Link>
-        <Link href="/autores">
-          <h1 className="hover:text-gray-800">Autores</h1>
-        </Link>
-        {/* <Link href="/conta">
-          <h1 className="hover:text-gray-800">Conta</h1>
-        </Link> */}
+        <div className="relative">
+          <button
+            onClick={() => toggleDropdown("colecoes")}
+            className="hover:text-gray-800"
+          >
+            Coleções
+          </button>
+          {openDropdown === 'colecoes' && (
+            <ul className="absolute bg-clr2 w-96 shadow-lg py-2 mt-1 rounded top-8 z-30">
+              {dropdownLinks.colecoes.map((link, index) => (
+                <Link key={index} href={link.href}>
+                  <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
+                    {link.label}
+                  </li>
+                </Link>
+              ))}
+            </ul>
+          )}
+        </div>
+        <div className="relative">
+          <button
+            onClick={() => toggleDropdown("sobre")}
+            className="hover:text-gray-800"
+          >
+            Sobre
+          </button>
+          {openDropdown === 'sobre' && (
+            <ul className="absolute bg-clr2 w-fit shadow-lg py-2 mt-1 rounded top-8 z-30">
+              {dropdownLinks.sobre.map((link, index) => (
+                <Link key={index} href={link.href}>
+                  <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
+                    {link.label}
+                  </li>
+                </Link>
+              ))}
+            </ul>
+          )}
+        </div>
       </nav>
-      
+
       {/* mobile */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-75 z-50">
