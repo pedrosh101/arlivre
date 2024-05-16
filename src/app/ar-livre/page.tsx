@@ -19,10 +19,7 @@ const Noticia = () => {
           </div>
 
           <p className="text-xl font-light sm:w-3/5">
-            Tem como projeto coleções dedicadas a ensaios sobre arte, política,
-            cultura do presente, narrativas e escritas performáticas norteadas
-            por traços de experimentalidade/criação de linguagens. Orientam-se
-            sob o signo das histórias da cultura e da literatura na
+            Tem como projeto coleções dedicadas a ensaios sobre arte, política, cultura do presente, narrativas e escritas performáticas norteadas por traços de experimentalidade/criação de linguagens. Orienta-se sob o signo das histórias da cultura e da literatura na
             contemporaneidade.
           </p>
         </div>
