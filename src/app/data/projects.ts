@@ -9,7 +9,7 @@ export const projects = [
     categorylink: "narrar-cartografar",
     ano: "2023",
     pag: "313",
-    price: "R$70,00",
+    price: "R$60,00",
     img: "/img/1.jpeg",
   },
   {
@@ -22,7 +22,7 @@ export const projects = [
     categorylink: "mutacoes-em-tempo-presente",
     ano: "2023",
     pag: "101",
-    price: "R$50,00",
+    price: "R$40,00",
     img: "/img/2.jpeg",
   },
   {
@@ -35,7 +35,7 @@ export const projects = [
     categorylink: "mutacoes-em-tempo-presente",
     ano: "2023",
     pag: "115",
-    price: "R$50,00",
+    price: "R$40,00",
     img: "/img/3.jpeg",
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     categorylink: "mutacoes-em-tempo-presente",
     ano: "2024",
     pag: "192",
-    price: "R$60,00",
+    price: "R$50,00",
     img: "/img/4.jpeg",
   },
 ];
