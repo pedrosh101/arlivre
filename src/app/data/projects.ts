@@ -51,4 +51,17 @@ export const projects = [
     price: "R$50,00",
     img: "/img/4.jpeg",
   },
+  {
+    id: 104,
+    title: "Diwan",
+    author: "Mario Bellatin",
+    description:
+      "Termo de origem persa, Diwan remete a uma junção de textos diversos de um mesmo escriba (dibir) e reunidos em uma única obra. Nas duas narrativas presentes no livro, O palácio e Um kafkafarabeu, que podem ser lidas como duas histórias de amor, orbitam personagens, situações e temas recorrentes no universo do autor: o poeta velho e sua caderneta; o cachorro perezvón; a filósofa travesti; o salão de beleza tornado morredouro; a história da máquina Underwood 1915. Mas não se trata, ao menos não no caso de Bellatin, de uma antologia, e sim, de uma reescritura que agrega movimento a uma ritualística da escrita, entre repetição e inventividade - “Você nunca pode alcançar a santidade. Vai escrever e escrever.” (O palácio).",
+    category: "Narrar, Cartografar",
+    categorylink: "narrar-cartografar",
+    ano: "2024",
+    pag: "192",
+    price: "R$45,00",
+    img: "/img/5.jpeg",
+  },
 ];

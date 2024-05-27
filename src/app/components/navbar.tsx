@@ -58,7 +58,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <main className="flex sm:flex-col w-full font-parag text-xl bg-lime-400 text-black">
+    <main className="flex sm:flex-col w-full font-parag text-lg bg-lime-400 text-black">
       <div className="flex w-full justify-center items-center text-sm font-agrandir">
         <h1 className="lg:block hidden cursor-default tracking-wider">
           Ar Livre
@@ -102,7 +102,7 @@ const Navbar = () => {
             Coleções
           </button>
           {openDropdown === 'colecoes' && (
-            <ul className="absolute bg-clr2 w-96 shadow-lg py-2 mt-1 rounded top-8 z-30">
+            <ul className="absolute bg-clr2 w-96 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.colecoes.map((link, index) => (
                 <Link key={index} href={link.href}>
                   <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
@@ -121,7 +121,7 @@ const Navbar = () => {
             Sobre
           </button>
           {openDropdown === 'sobre' && (
-            <ul className="absolute bg-clr2 w-fit shadow-lg py-2 mt-1 rounded top-8 z-30">
+            <ul className="absolute bg-clr2 w-fit shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.sobre.map((link, index) => (
                 <Link key={index} href={link.href}>
                   <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">

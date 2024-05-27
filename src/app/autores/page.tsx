@@ -15,7 +15,7 @@ interface AuthorInfo {
 function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
-  const authors = ["Tiago Cfer", "Mauricio Salles Vasconcelos"];
+  const authors = ["Tiago Cfer", "Mauricio Salles Vasconcelos", "Mario Bellatin"];
 
   const authorInfo: AuthorInfo = {
     "Tiago Cfer": {
@@ -28,10 +28,10 @@ function Autores() {
       text: "Nasceu no Rio de Janeiro. Vive em São Paulo desde 2005. Escritor e performer. O volume Mantra Muzak (2024) apresenta 10 peças de sua autoria. Dirigiu vídeos sobre as poéticas de Cesário Verde, Guy Debord, Maurice Blanchot e do angolano Ruy Duarte de Carvalho. Participou como ator dos filmes São Ateu (Hiro Hishikawa, 2022) e Complô – Os deuses da peste (Tiago Mata Machado, 2024). Seus livros mais recentes, entre muitos nos campos da narrativa, da poesia e do ensaio, são: Últimas décadas nos cinemas – Livro-de-Bolsa (2024); Bebete Bezos (2023) e Seriado (2021), romances. Nove livros de poesia estão reunidos em Vocal (2022). Na área ensaística: Mapas Caminhantes – Poesia do Tempo e da Terra (2023) e Em Tempo/Extremo Poema (José Emílio-Nelson), de 2022; ambos publicados por Edições Esgotadas (Lisboa). Nas Edições Ar Livre, A Lágrima Macrológica (Hospital Brasil), de 2023, incursiona pela crítica político-cultural. Atua no Programa de Pós-Graduação em Estudos Comparados de Literaturas de Língua Portuguesa (Universidade de São Paulo).",
       image: "/img/mauricio.jpg",
     },
-    "Autor 3": {
-      name: "",
-      text: "",
-      image: "",
+    "Mario Bellatin": {
+      name: "Mario Bellatin",
+      text: "Mario Bellatin nasceu no México e cresceu no Peru, onde deu início à sua trajetória na literatura com o romance Mujeres de sal (1986), editado e vendido de forma independente. Atualmente, é reconhecido como um dos nomes mais inventivos da literatura hispano-americana. Dentre as mais de trinta narrativas publicadas, algumas como Salão de beleza (1994), Flores (2001) e Lições para uma lebre morta (2005) já são consideradas clássicos contemporâneos.",
+      image: "/img/mario.jpg",
     },
   };
 
