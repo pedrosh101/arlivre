@@ -60,7 +60,7 @@ export const projects = [
     category: "Narrar, Cartografar",
     categorylink: "narrar-cartografar",
     ano: "2024",
-    pag: "192",
+    pag: "74",
     price: "R$45,00",
     img: "/img/5.jpeg",
   },
