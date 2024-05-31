@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import LogoNav from "../../../public/img/logonav.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +66,7 @@ const Navbar = () => {
         </h1>
         <Link href="/" className="w-fit">
           <Image
-            src="https://i.imgur.com/CmRKJCU.png"
+            src={LogoNav}
             alt="arlivre"
             height={190}
             width={100}

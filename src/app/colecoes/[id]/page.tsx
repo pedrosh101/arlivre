@@ -6,6 +6,9 @@ import Link from "next/link";
 import { colecoes } from "../../data/colecao";
 import { projects } from "../../data/projects";
 
+
+
+
 const Colecoes = ({ params }: any) => {
   const { id } = params;
   const colecao = colecoes.find((item) => item.caminho === id);

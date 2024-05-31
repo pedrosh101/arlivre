@@ -5,8 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ar Livre',
-  description: 'Editora Ar Livre',
+  title: {
+    default: "Editora Ar Livre",
+    template: "%s - Editora Ar Livre"
+  },
+  description: 'Venha conhecer a Editora Ar Livre',
 }
 
 export default function RootLayout({
