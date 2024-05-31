@@ -34,6 +34,7 @@ const Navbar = () => {
     sobre: [
       { href: "/ar-livre", label: "Apresentação" },
       { href: "/autores", label: "Autores" },
+      { href: "/comite-editorial", label: "Comitê Editorial" },
     ],
   };
 
@@ -122,7 +123,7 @@ const Navbar = () => {
             Sobre
           </button>
           {openDropdown === 'sobre' && (
-            <ul className="absolute bg-clr2 w-fit shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
+            <ul className="absolute bg-clr2 w-40 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.sobre.map((link, index) => (
                 <Link key={index} href={link.href}>
                   <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
@@ -182,7 +183,7 @@ const Navbar = () => {
                     Apresentação
                   </li>
                 </Link>
-                <Link href="/autores">
+                <Link href="/comite-editorial">
                   <li
                     className="cursor-pointer hover:text-red-200"
                     onClick={toggleNav}

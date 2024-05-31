@@ -3,7 +3,7 @@ import Navbar from "@/app/components/navbar";
 import Image from "next/image";
 import Logo from "../../../public/img/logo.jpg";
 
-const Noticia = () => {
+const ArLivre = () => {
   return (
     <>
       <main className="flex flex-col w-full text-white bg-clr3 text-center min-h-screen">
@@ -28,4 +28,4 @@ const Noticia = () => {
   );
 };
 
-export default Noticia;
+export default ArLivre;
