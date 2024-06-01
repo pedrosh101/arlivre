@@ -1,5 +1,3 @@
-"use client";
-
 import Card from "./components/card";
 import News from "./components/news";
 import Navbar from "./components/navbar";

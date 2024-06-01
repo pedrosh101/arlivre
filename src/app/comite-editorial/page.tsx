@@ -1,7 +1,5 @@
-"use client";
 import Navbar from "@/app/components/navbar";
-import Image from "next/image";
-import Logo from "../../../public/img/logo.jpg";
+
 
 const Comite = () => {
   return (
