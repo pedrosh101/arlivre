@@ -55,6 +55,10 @@ const Livro = ({ params }: any) => {
               <h1>{livro?.ano}</h1>
             </div>
             <div>
+              <h1 className="font-semibold text-clr2">Preço:</h1>
+              <h1>{livro?.price}</h1>
+            </div>
+            <div>
               <h1 className="font-semibold text-clr2">Nº de páginas:</h1>
               <h1>{livro?.pag}</h1>
             </div>
