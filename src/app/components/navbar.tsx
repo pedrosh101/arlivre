@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import LogoNav from "../../../public/img/logonav.png"
+import LogoNav from "../../../public/img/logonav.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -105,7 +105,8 @@ const Navbar = () => {
           >
             Coleções
           </button>
-          {openDropdown === 'colecoes' && (
+
+          {openDropdown === "colecoes" && (
             <ul className="absolute bg-clr2 w-96 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.colecoes.map((link, index) => (
                 <Link key={index} href={link.href}>
@@ -117,6 +118,13 @@ const Navbar = () => {
             </ul>
           )}
         </div>
+
+        <Link href="/colecoes/virus">
+          <li className="block px-4 py-2 hover:text-gray-800 ">
+            Série Vírus (Editora Córrego)
+          </li>
+        </Link>
+
         <div className="relative">
           <button
             onClick={() => toggleDropdown("sobre")}
@@ -124,7 +132,8 @@ const Navbar = () => {
           >
             Sobre
           </button>
-          {openDropdown === 'sobre' && (
+
+          {openDropdown === "sobre" && (
             <ul className="absolute bg-clr2 w-40 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.sobre.map((link, index) => (
                 <Link key={index} href={link.href}>

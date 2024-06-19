@@ -5,13 +5,12 @@ import Link from "next/link";
 import { colecoes } from "../../data/colecao";
 import { projects } from "../../data/projects";
 
-
-
-
 const Colecoes = ({ params }: any) => {
   const { id } = params;
   const colecao = colecoes.find((item) => item.caminho === id);
-  const correspondentes = projects.filter((project) => project.categorylink === id);
+  const correspondentes = projects.filter(
+    (project) => project.categorylink === id
+  );
 
   return (
     <>
@@ -25,18 +24,18 @@ const Colecoes = ({ params }: any) => {
               <p className="font-parag text-base tracking-wide">
                 {colecao.texto}
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 mt-12">
+              <div className="grid grid-cols-1 sm:grid-cols-3 mt-12 gap-8">
                 {correspondentes.map((project) => (
-                  <Link key={project.id} href={`/livro/${project.id}`}>
-                    <div className="relative h-72 sm:mt-0 w-96 mr-4 mb-4">
+                  <div key={project.id} className="relative h-72 sm:mt-0 mr-4 mb-4">
+                    <Link href={`/livro/${project.id}`}>
                       <Image
                         src={project.img}
                         alt={`Image ${project.id}`}
                         fill
                         className="object-contain transition-opacity duration-700"
                       />
-                    </div>
-                  </Link>
+                    </Link>
+                  </div>
                 ))}
               </div>
             </>

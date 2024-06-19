@@ -30,7 +30,7 @@ const Livro = ({ params }: any) => {
               <h1 className="text-base font-medium pb-4">
                 {livro?.description}
               </h1>
-              <a href="https://wa.me/5511980144114" target="_blank">
+              <a href={livro?.buy} target="_blank">
                 <button className="bg-clr1 hover:bg-pink-400 text-black py-2 px-4 rounded-sm w-fit shadow-md">
                   Comprar
                 </button>
