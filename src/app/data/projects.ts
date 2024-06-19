@@ -153,4 +153,18 @@ export const projects = [
     img: "/img/11.jpg",
     buy: "https://www.editoracorrego.com.br/product-page/cat%C3%A1lise-de-lucas-miyazaki",
   },
+  {
+    id: 111,
+    title: "Gradiente Spectrum",
+    author: "Tiago Cfer",
+    description:
+      "Ao redesenhar as perspectivas da ficção-científica (legado do século XX), Cfer cria um diagrama dinâmico no presente milênio sobre as noções futuro e as regressões da ideia de progresso. Toda uma ideologia, tanto científica como fabular, política como existencial, está combina no romance sob o signo da música progressiva (Kraut), centrando-se nos desvios de todos os tipos observados na realidade brasileira. Gradiente Spectrum parte de um esquema de antecipação (típico das ficções centradas no futuro) para especular a imensa rede de implicações tecnológicas no plano mais direto da realidade. Cria uma espécie de documento sobre o Brasil nos últimos anos, dentro de um presente acrônico/anacrônico anunciado por projeções futuras (nos domínios progressistas da ficção e da ciência).",
+    category: "Série Vírus",
+    categorylink: "virus",
+    ano: "2024",
+    pag: "78",
+    price: "R$40,00",
+    img: "/img/12.jpeg",
+    buy: "https://wa.me/5511980144114",
+  },
 ];
