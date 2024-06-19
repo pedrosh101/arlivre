@@ -183,7 +183,12 @@ const Navbar = () => {
                 </Link>
               </ul>
             </section>
-            <section className="mt-16">
+            <Link href="/colecoes/virus">
+              <li className="block py-12 text-2xl font-medium ">
+                Série Vírus<br/> (Editora Córrego)
+              </li>
+            </Link>
+            <section>
               <h2 className="pb-4 text-2xl font-semibold">Sobre a Editora</h2>
               <ul className="flex flex-col space-y-4 font-light">
                 <Link href="/ar-livre">
