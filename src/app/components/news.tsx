@@ -26,7 +26,7 @@ const News: React.FC<ProjectCardProps> = ({ new: noticia }) => {
       : noticia.texto;
 
   return (
-    <div className="flex justify-between h-fit flex-1 border border-gray-300 bg-clr3 rounded-md p-4 text-white m-1 space-x-4">
+    <div className="flex justify-between h-fit flex-1 border border-gray-300 bg-clr3 hover:bg-clr3/80 rounded-md p-4 text-white m-1 space-x-4">
   
       <div className={twMerge("relative overflow-hidden h-52 w-2/5")}>
         <Link

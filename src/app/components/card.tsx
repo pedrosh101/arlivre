@@ -20,7 +20,7 @@ interface ProjectCardProps {
 
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="flex flex-col justify-between text-center h-[25rem] m-1 p-4 border border-gray-300 bg-clr3 rounded-md items-center text-white">
+    <div className="flex flex-col justify-between text-center h-[25rem] m-1 p-4 border border-gray-300 bg-clr3 hover:bg-clr3/80 rounded-md items-center text-white">
       
       <div className={twMerge("relative overflow-hidden h-44 w-full")}>
         <Link
