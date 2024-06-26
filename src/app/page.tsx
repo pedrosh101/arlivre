@@ -39,7 +39,7 @@ export default function Home() {
         <div className="bg-clr2 w-12 hidden sm:block" />
       </main>
 
-      <div className="flex justify-center bg-clr2 text-clr3 font-parag text-sm h-12 items-center">
+      <div className="flex justify-center bg-clr2 text-white font-parag text-sm h-12 items-center">
         <p>© 2024 Ar Livre</p>
       </div>
     </>

@@ -75,7 +75,7 @@ export const projects = [
     author: "Jacques Stern",
     description:
       "O Asaro, de Jacques Stern, autor pouco conhecido da geração beat, experimentador de novas dimensões de escrita, é o primeiro volume da série Vírus. Cultuado por William S. Burroughs, Stern comparece com uma espécie de livro invisível, pouquíssimo conhecido, no entanto seminal quando se atenta para sua rede de relações com a contemporaneidade. Centrais para a criação dos cut-ups concebidos por Burroughs – uma prática decisiva na escrita, na cultura da mixagem e da apropriação, característica do contexto digital de agora –, Stern e seu The Fluke (publicado uma única vez, em 1965, e fora do mercado) marcam um encontro com muitas linhas produtivas de criação da atualidade. Em seu diálogo com Céline, Beckett, a deriva existencial desde os anos 1960 e a abertura para vertentes inovadoras de arte e comportamento, O asaro tem o impacto de uma revelação tardia. Soa como uma total novidade, em sua primeira tradução.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2018",
     pag: "162",
@@ -89,7 +89,7 @@ export const projects = [
     author: "Amélia Loureiro",
     description:
       "O nado é um conjunto narrativo inovador que incursiona por mapeamentos do cotidiano neomilenar. Realizando um jogo atraente e arguto entre anotação e reflexão, a escritora captura o contexto altamente tecnificado de hoje. Ao mesmo tempo, se alia a sondagens impensáveis do universo feminino. Encontra-se em sintonia com os signos da mundialização e da ambiência multicultural de hoje. Como destaca a ensaísta Sabrina Sedlmayer, em sua apresentação de O nado: “Se há, aqui, muito da força do Modernismo literário e seu ímpeto de invenção, deve-se lembrar que nihilo nihil: nada surge do nada. Amélia Loureiro tem escuta e sabe que ser campeão de natação e não saber nadar não é aporia nem contradição. Nadar, sem se sentir nadador. Preocupar-se com o processo, como Beckett de Worstward Ho. Amélia Loureiro está vitalmente comprometida com o trabalho de escrita. Parece viver em estado de arte”.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2022",
     pag: "96",
@@ -103,7 +103,7 @@ export const projects = [
     author: "Damián Tabarovsky",
     description:
       "Nessa narrativa do escritor e ensaísta argentino Damián Tabarovsky, em sintonia com muitas teses de seu importante ensaio Literatura de esquerda, a tradição kafkiana se encontra em jogo, no auge do desencanto e da solidão contemporâneas. O texto vivaz, imantador, é capaz de rever a força da invenção referendada na modernidade, ao mesmo tempo em que captura um universo de valores e inquietações existenciais, de modo inaugural, vivamente firmado no presente.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2019",
     pag: "40",
@@ -117,7 +117,7 @@ export const projects = [
     author: "Teti Conrado",
     description:
       "Estreia na ficção de uma autora concentrada num painel de realidades urgentes. Toma grande voltagem no romance a entourage tecno dos dispositivos de escrita e relacionamento em compasso com as tensões do mundo globalizado. Intenso é o foco dado aos horizontes de existência, trabalho e vida interpessoal à volta de 3 ex-integrantes do movimento emo em SP. Embalado por referências pop, o livro incursiona pelos impasses da postagem infonáutica, esquadrinhando impasses, interferências as mais diferentes nos modos de ser e estar na hora de agora. À maneira de um scanner nervoso, eletrificado, contextualiza-se na cena de violência política do Brasil nas últimas décadas.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2019",
     pag: "166",
@@ -131,7 +131,7 @@ export const projects = [
     author: "Osvaldo Lamborghini",
     description:
       "Pela primeira vez é publicado em português um livro com algumas das narrativas produzidas pelo argentino Osvaldo Lamborghini (1940-1985). Com um toque de Sade, outro mais de Céline, simultaneamente impregnado das fontes mais vivas e inquietantes da grande literatura latino-americana, o autor de O menino proletário propõe uma forma insurgente de escrita. O projeto de Lamborghini é capaz de fazer rever mapeamentos historiográficos do século XX até hoje através de cortes nos espaços/tempos envolvendo diferentes autorias. A contar de um perturbador engendramento construtivo/conceptivo, desponta com intenso poder de propagação o que pode ser a arte narrativa no corpo do presente, com a presentificação do corpo.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2022",
     pag: "94",
@@ -145,7 +145,7 @@ export const projects = [
     author: "Lucas Miyazaki",
     description:
       "Em seu romance de estreia, Miyazaki põe em cena sua proposição de escrita-performance, base de suas pesquisas no campo da Literatura Comparada. Faz irromper um texto centrado no teatro, inovando o sentido de narrativa, como também a teatralidade e o que se concebe como performativo. Um trabalho inaugural ganha uma mobilizante forma. Como dramaturgo, Lucas Miyazaki compôs e levou à cena as peças Não Ela: o que é bom está sempre sendo destruído (2019-2021), e os monólogos Incubação dos sonhos (2020), para uma experimentação video-cênica durante a pandemia, e Limpo (2021). Escreveu diversas narrativas, como “Radio Silence”, “História de como voltei ao seu lugar”, “Ar no parque”, entre outras, publicadas em revistas. É autor dos livros Elefantes (Prêmio Nascente 2015) e de CELULAR.QUITINETE.RUA (2017).",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2022",
     pag: "96",
@@ -159,7 +159,7 @@ export const projects = [
     author: "Tiago Cfer",
     description:
       "Ao redesenhar as perspectivas da ficção-científica (legado do século XX), Cfer cria um diagrama dinâmico no presente milênio sobre as noções futuro e as regressões da ideia de progresso. Toda uma ideologia, tanto científica como fabular, política como existencial, está combinado no romance sob o signo da música progressiva (Kraut), centrando-se nos desvios de todos os tipos observados na realidade brasileira. Gradiente Spectrum parte de um esquema de antecipação (típico das ficções centradas no futuro) para especular a imensa rede de implicações tecnológicas no plano mais direto da realidade. Cria uma espécie de documento sobre o Brasil nos últimos anos, dentro de um presente acrônico/anacrônico anunciado por projeções futuras (nos domínios progressistas da ficção e da ciência).",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2024",
     pag: "78",
@@ -173,7 +173,7 @@ export const projects = [
     author: "Ana Pavla",
     description:
       "A noção de feminização do mundo, estudada por Lacan e ampliada pelo psicanalista argentino Ernesto Sinatra, impulsiona os escritos de Ana Pavla. Em seu primeiro romance, a autora coloca uma mulher nas estradas nacionais em uma motocicleta enquanto examina os esplendores e a violência que sofre o espaço natural brasileiro. Uma mistura de documentário fílmico criada sob a influência das narrativas de Kathy Acker faz de BR-Clítoris um verdadeiro acontecimento na literatura recente em língua portuguesa, devido à sua audácia e refinada articulação conceitual, dirigida a múltiplas vias da arte, da política e do comportamento.",
-    category: "Série Vírus",
+    category: "Editora Córrego - Série Vírus",
     categorylink: "virus",
     ano: "2024",
     pag: "74",

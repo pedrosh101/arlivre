@@ -25,7 +25,7 @@ export const colecoes = [
   },
   {
     id: 4,
-    title: "Série Vírus",
+    title: "Editora Córrego - Série Vírus",
     caminho: "virus",
     texto:
       "Dedicada à narrativa. Ao narrativo agora. Contágio entre campos de arte e saber propicia descobertas no ato e na recepção do escrever. Outras formas, então, despontam – Sob o signo da propagação/disseminação. Por força de criações plurais, descentralizadoras dos eixos hegemônicos de validação do que é e pode ser mais livremente a literatura, em altas voltagens criativas e investigativas. Com interesse por ficções inéditas – não traduzidas – pouco lidas, mais antigas, ainda por obterem leitura, a coleção dá espaço para a aventura de proposição e linguagem. Bem além da concatenação de episódios e peripécias, em atendimento a processos reconhecíveis de realidade e imaginação, como feito supremo da narratividade. Não põe foco, no entanto, em projetos destituídos de construtividade e rigor, tendo-se em pauta linhas mobilizantes de ações-situações fabuladas com personagens (animados ou não, nomeáveis ou não) em dimensões abertas de espaço/tempo.",

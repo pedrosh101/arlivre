@@ -68,7 +68,7 @@ function Autores() {
                   cy="150"
                   r={100 + index * 10}
                   fill="none"
-                  stroke="#3b82f6"
+                  stroke="#DB68DB"
                   strokeWidth=".8"
                   variants={variants}
                   initial="initial"

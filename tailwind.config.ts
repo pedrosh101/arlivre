@@ -15,8 +15,8 @@ const config: Config = {
       },
       colors: {
         clr1: '#FFACAC',
-        clr2: '#F6FA70',
-        clr3: '#12372A',
+        clr2: '#DB68DB',
+        clr3: '#313538',
         clr4: '#FF0060',
       },
       fontFamily:{

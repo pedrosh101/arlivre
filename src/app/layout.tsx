@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Editora Ar Livre",
     template: "%s - Editora Ar Livre"
   },
-  description: 'Venha conhecer a Editora Ar Livre',
+  description: 'Ar Livre Edições',
 }
 
 export default function RootLayout({

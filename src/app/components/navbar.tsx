@@ -97,11 +97,11 @@ const Navbar = () => {
         </svg>
       </div>
       {/* desktop */}
-      <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 justify-center">
+      <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 text-white justify-center">
         <div className="relative">
           <button
             onClick={() => toggleDropdown("colecoes")}
-            className="hover:text-gray-800"
+            className="hover:text-gray-200"
           >
             Coleções
           </button>
@@ -110,7 +110,7 @@ const Navbar = () => {
             <ul className="absolute bg-clr2 w-96 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.colecoes.map((link, index) => (
                 <Link key={index} href={link.href}>
-                  <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
+                  <li className="block px-4 py-2 hover:text-gray-200 hover:bg-clr3/5">
                     {link.label}
                   </li>
                 </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
         </div>
 
         <Link href="/colecoes/virus">
-          <li className="block px-4 py-2 hover:text-gray-800 ">
+          <li className="block px-4 py-2 hover:text-gray-200 ">
             Série Vírus (Editora Córrego)
           </li>
         </Link>
@@ -128,7 +128,7 @@ const Navbar = () => {
         <div className="relative">
           <button
             onClick={() => toggleDropdown("sobre")}
-            className="hover:text-gray-800"
+            className="hover:text-gray-200"
           >
             Sobre
           </button>
@@ -137,7 +137,7 @@ const Navbar = () => {
             <ul className="absolute bg-clr2 w-40 shadow-lg py-2 mt-1 rounded top-8 z-30 text-left text-base">
               {dropdownLinks.sobre.map((link, index) => (
                 <Link key={index} href={link.href}>
-                  <li className="block px-4 py-2 hover:text-gray-800 hover:bg-clr3/5">
+                  <li className="block px-4 py-2 hover:text-gray-200 hover:bg-clr3/5">
                     {link.label}
                   </li>
                 </Link>
