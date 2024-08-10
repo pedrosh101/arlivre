@@ -11,7 +11,7 @@ export const projects = [
     pag: "313",
     price: "R$60,00",
     img: "/img/1.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/1VEoLv8",
   },
   {
     id: 101,
@@ -25,7 +25,7 @@ export const projects = [
     pag: "101",
     price: "R$40,00",
     img: "/img/2.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/2CrM5ko",
   },
   {
     id: 102,
@@ -39,7 +39,7 @@ export const projects = [
     pag: "115",
     price: "R$40,00",
     img: "/img/3.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/1zfsyv4",
   },
   {
     id: 103,
@@ -53,7 +53,7 @@ export const projects = [
     pag: "192",
     price: "R$50,00",
     img: "/img/4.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/2DKtUpf",
   },
   {
     id: 104,
@@ -67,7 +67,7 @@ export const projects = [
     pag: "74",
     price: "R$45,00",
     img: "/img/5.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/1b9NUxK",
   },
   {
     id: 105,
@@ -81,7 +81,7 @@ export const projects = [
     pag: "162",
     price: "R$40,00",
     img: "/img/6.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/o-asaro-de-jacques-stern",
+    buy: "https://mpago.la/1LDLPwA",
   },
   {
     id: 106,
@@ -95,7 +95,7 @@ export const projects = [
     pag: "96",
     price: "R$40,00",
     img: "/img/7.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/o-nado-de-am%C3%A9lia-loureiro",
+    buy: "https://mpago.la/1fectpm",
   },
   {
     id: 107,
@@ -109,7 +109,7 @@ export const projects = [
     pag: "40",
     price: "R$35,00",
     img: "/img/8.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/kafka-de-f%C3%A9rias-de-dami%C3%A1n-tabarovsky",
+    buy: "https://mpago.la/19hJ66L",
   },
   {
     id: 108,
@@ -123,7 +123,7 @@ export const projects = [
     pag: "166",
     price: "R$40,00",
     img: "/img/9.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/postar-popstar-de-teti-conrado",
+    buy: "https://mpago.la/2NziG23",
   },
   {
     id: 109,
@@ -137,7 +137,7 @@ export const projects = [
     pag: "94",
     price: "R$40,00",
     img: "/img/10.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/o-menino-prolet%C3%A1rio-3-narrativas-de-osvaldo-lamborghini",
+    buy: "https://mpago.la/25XCJKf",
   },
   {
     id: 110,
@@ -151,7 +151,7 @@ export const projects = [
     pag: "96",
     price: "R$40,00",
     img: "/img/11.jpg",
-    buy: "https://www.editoracorrego.com.br/product-page/cat%C3%A1lise-de-lucas-miyazaki",
+    buy: "https://mpago.la/1mGRTei",
   },
   {
     id: 111,
@@ -165,7 +165,7 @@ export const projects = [
     pag: "78",
     price: "R$40,00",
     img: "/img/12.jpeg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/2hxD2bQ",
   },
   {
     id: 112,
@@ -179,6 +179,6 @@ export const projects = [
     pag: "74",
     price: "R$40,00",
     img: "/img/13.jpg",
-    buy: "https://wa.me/5511980144114",
+    buy: "https://mpago.la/26fbwjv",
   },
 ];
