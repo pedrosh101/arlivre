@@ -29,7 +29,7 @@ const Navbar = () => {
         label: "Mutações em Tempo Presente (Ensaios)",
       },
       {
-        href: "/colecoes/hibridos",
+        href: "/colecoes/ambulante",
         label: "Ambulante (Escritas Performáticas)",
       },
     ],
@@ -173,7 +173,7 @@ const Navbar = () => {
                     Mutações em Tempo Presente (Ensaios)
                   </li>
                 </Link>
-                <Link href="/colecoes/hibridos">
+                <Link href="/colecoes/ambulante">
                   <li
                     className="cursor-pointer hover:text-red-200"
                     onClick={toggleNav}

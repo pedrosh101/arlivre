@@ -18,7 +18,7 @@ export const colecoes = [
   {
     id: 3,
     title: "Ambulante",
-    caminho: "hibridos",
+    caminho: "ambulante",
     texto:
       "Livros dedicados a diferentes atos cênicos. Textos e ensaios centrados no fator performativo, em suas várias modulações de teatralidade e propostas híbridas de linguagem, envolvendo diversas artes e concepções. Desde o que se refere às esferas dramatúrgicas até o que se define como performance e se expande na atualidade. Toda uma configuração reflexiva está em pauta, extensiva ao entendimento do teatro e da literatura em termos contemporâneos, na sua dimensão tanto criativa quanto crítico-teórica.",
 
