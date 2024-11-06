@@ -8,10 +8,10 @@ export const projects = [
     category: "Ambulante",
     categorylink: "ambulante",
     ano: "2024",
-    pag: "",
+    pag: "266",
     price: "R$60,00",
     img: "/img/14.jpg",
-    buy: "",
+    buy: "https://mpago.la/1Mh9JFG",
   },
   {
     id: 100,
