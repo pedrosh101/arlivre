@@ -41,7 +41,7 @@ const Livro = ({ params }: any) => {
           <div className="h-0.5 w-full bg-clr2 sm:block hidden mt-12" />
           <div className="flex sm:flex-row flex-col w-full justify-between sm:text-center sm:py-12 py-8 space-y-2 sm:space-y-0 px-4 lg:px-0">
             <div>
-              <h1 className="font-semibold text-clr2">Categoria:</h1>
+              <h1 className="font-semibold text-clr2">Coleção</h1>
               <Link
                 href={{
                   pathname: `../colecoes/${livro?.categorylink}`,
@@ -51,15 +51,15 @@ const Livro = ({ params }: any) => {
               </Link>
             </div>
             <div>
-              <h1 className="font-semibold text-clr2">Ano:</h1>
+              <h1 className="font-semibold text-clr2">Ano</h1>
               <h1>{livro?.ano}</h1>
             </div>
             <div>
-              <h1 className="font-semibold text-clr2">Preço:</h1>
+              <h1 className="font-semibold text-clr2">Preço</h1>
               <h1>{livro?.price}</h1>
             </div>
             <div>
-              <h1 className="font-semibold text-clr2">Nº de páginas:</h1>
+              <h1 className="font-semibold text-clr2">Nº de páginas</h1>
               <h1>{livro?.pag}</h1>
             </div>
           </div>
