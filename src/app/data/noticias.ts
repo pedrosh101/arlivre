@@ -1,28 +1,5 @@
 export const noticias = [
   {
-    id: 1,
-    title: "Lançamento de livro com ensaios de integrantes dos Laboratórios de Criação – Escrita de Literatura e Teoria (USP)",
-    author: "Mauricio Salles Vasconcelos",
-    sections: [
-      {
-        texto: "Um Acontecimento no Universo das Oficinas Literárias - Políticas da Escrita em ampla voltagem das artes, áreas de saber e territórios culturais. Mutação  de livro, leitura e literatura à altura do tempo que passa e propõe textos atuantes e atuais. LABORATÓRIOS DE CRIAÇÃO  Linha de Pesquisa da Pós Graduação em Estudos Comparados (FFLCH/USP). Comemoração de 6 Anos de Atividades e Lançamento do LIVRO-LÁPIS *Edições  Ar Livre",
-        img: "/news/1.jpg",
-        legenda: "",
-      },
-      {
-        texto: "",
-        img: "/news/2.jpg",
-        legenda: "",
-      },
-      {
-        texto: "",
-        img: "/news/3.jpg",
-        legenda: "",
-      },
-    ],
-    miniatureImg: "/news/3.jpg",
-  },
-  {
     id: 2,
     title: "DEVIR-TEATRO",
     author: "Oliver Olívia",
@@ -53,4 +30,28 @@ export const noticias = [
 
     miniatureImg: "/news/4.jpeg",
   },
+  {
+    id: 1,
+    title: "Lançamento de livro com ensaios de integrantes dos Laboratórios de Criação – Escrita de Literatura e Teoria (USP)",
+    author: "Mauricio Salles Vasconcelos",
+    sections: [
+      {
+        texto: "Um Acontecimento no Universo das Oficinas Literárias - Políticas da Escrita em ampla voltagem das artes, áreas de saber e territórios culturais. Mutação  de livro, leitura e literatura à altura do tempo que passa e propõe textos atuantes e atuais. LABORATÓRIOS DE CRIAÇÃO  Linha de Pesquisa da Pós Graduação em Estudos Comparados (FFLCH/USP). Comemoração de 6 Anos de Atividades e Lançamento do LIVRO-LÁPIS *Edições  Ar Livre",
+        img: "/news/1.jpg",
+        legenda: "",
+      },
+      {
+        texto: "",
+        img: "/news/2.jpg",
+        legenda: "",
+      },
+      {
+        texto: "",
+        img: "/news/3.jpg",
+        legenda: "",
+      },
+    ],
+    miniatureImg: "/news/3.jpg",
+  },
+
 ];
