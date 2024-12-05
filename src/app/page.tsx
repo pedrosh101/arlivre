@@ -28,7 +28,7 @@ export default function Home() {
           </div>
 
           {/* notícias */}
-          <div className="flex justify-center sm:w-2/6 bg-slate-100/20 mb-4 sm:mb-0">
+          <div className="flex flex-col justify-center h-2/5 sm:w-2/6 bg-slate-100/20 mb-4 sm:mb-0">
             {noticias.map((noticia) => (
               <News key={noticia.id} new={noticia}></News>
             ))}
