@@ -67,7 +67,7 @@ export const projects = [
     pag: "192",
     price: "R$50,00",
     img: "/img/4.jpeg",
-    buy: "https://mpago.la/2DKtUpf",
+    buy: "https://www.amazon.com.br/dp/6500985400",
   },
   {
     id: 104,
