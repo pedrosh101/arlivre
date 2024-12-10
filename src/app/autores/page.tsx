@@ -56,7 +56,7 @@ function Autores() {
 
   return (
     <>
-      <main className="flex bg-clr3 text-lg text-black w-full">
+      <main className="flex sm:flex-row flex-col bg-clr3 text-lg text-black w-full">
         {/* Lado esquerdo */}
         <div className="flex-1 bg-clr3 relative flex items-center justify-center">
           <svg className="w-full sm:h-[100vh] h-[60vh]" viewBox="0 0 400 400">
