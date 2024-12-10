@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Navbar from "../components/navbar";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -15,7 +15,11 @@ interface AuthorInfo {
 function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
-  const authors = ["Tiago Cfer", "Mauricio Salles Vasconcelos", "Mario Bellatin"];
+  const authors = [
+    "Tiago Cfer",
+    "Mauricio Salles Vasconcelos",
+    "Mario Bellatin",
+  ];
 
   const authorInfo: AuthorInfo = {
     "Tiago Cfer": {
@@ -52,75 +56,66 @@ function Autores() {
 
   return (
     <>
-      <Navbar />
-      <main className="bg-clr3 text-lg text-black h-screen">
-        <section className="flex sm:flex-row flex-col">
-          {/* Lado esquerdo */}
-          <div className="flex bg-clr3 flex-1/2 relative w-full md:w-auto">
-            <svg
-              className="w-full md:w-[50vw] sm:h-[100vh] h-[60vh]"
-              viewBox="0 0 400 400"
-            >
-              {[...Array(26)].map((_, index) => (
-                <motion.circle
-                  key={index}
-                  cx="250"
-                  cy="150"
-                  r={100 + index * 10}
-                  fill="none"
-                  stroke="#DB68DB"
-                  strokeWidth=".8"
-                  variants={variants}
-                  initial="initial"
-                  animate="animate"
-                  style={{ originX: "150px", originY: "150px" }}
-                  whileHover={{ scale: 1.4 }}
-                  onClick={() => handleAuthorClick(authors[index % 3])}
-                />
-              ))}
-              {authors.map((author, index) => (
-                <text
-                  key={index}
-                  x="250"
-                  y={120 + index * 30}
-                  textAnchor="middle"
-                  alignmentBaseline="middle"
-                  fill="white"
-                  fontSize="16px"
-                  fontWeight="bold"
-                  className="cursor-pointer font-agrandir tracking-wider"
-                  onClick={() => handleAuthorClick(author)}
-                >
-                  {author}
-                </text>
-              ))}
-            </svg>
-          </div>
+      <main className="flex bg-clr3 text-lg text-black w-full">
+        {/* Lado esquerdo */}
+        <div className="flex-1 bg-clr3 relative flex items-center justify-center">
+          <svg className="w-full sm:h-[100vh] h-[60vh]" viewBox="0 0 400 400">
+            {[...Array(26)].map((_, index) => (
+              <motion.circle
+                key={index}
+                cx="250"
+                cy="150"
+                r={100 + index * 10}
+                fill="none"
+                stroke="#DB68DB"
+                strokeWidth=".8"
+                variants={variants}
+                initial="initial"
+                animate="animate"
+                whileHover={{ scale: 1.4 }}
+                onClick={() => handleAuthorClick(authors[index % 3])}
+              />
+            ))}
+            {authors.map((author, index) => (
+              <text
+                key={index}
+                x="250"
+                y={120 + index * 30}
+                textAnchor="middle"
+                alignmentBaseline="middle"
+                fill="white"
+                fontSize="16px"
+                fontWeight="bold"
+                className="cursor-pointer font-agrandir tracking-wider"
+                onClick={() => handleAuthorClick(author)}
+              >
+                {author}
+              </text>
+            ))}
+          </svg>
+        </div>
 
-          {/* Lado direito */}
-          <div className="flex w-full flex-1/2 sm:p-8 p-0 bg-clr3 text-white">
-            {selectedAuthor && (
-              <div className="flex flex-col sm:items-center px-4 pt-0 sm:pt-12 pb-4 space-y-4">
-                <div className="flex mt-4 sm:mt-0">
-                  <div className="relative h-64 w-64 rounded-full overflow-hidden">
-                    <Image
-                      src={authorInfo[selectedAuthor].image}
-                      alt={selectedAuthor}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="sm:text-center mt-3">
-                  <h1 className="text-3xl mb-4">
-                    {authorInfo[selectedAuthor].name}
-                  </h1>
-                  <h2 className="sm:text-lg text-base">{authorInfo[selectedAuthor].text}</h2>
-                </div>
+        {/* Lado direito */}
+        <div className="flex-1 bg-clr3 text-white p-8 flex flex-col  justify-center">
+          {selectedAuthor ? (
+            <div className="flex flex-col items-center space-y-4">
+              <div className="relative h-64 w-64 rounded-full overflow-hidden">
+                <Image
+                  src={authorInfo[selectedAuthor].image}
+                  alt={selectedAuthor}
+                  fill
+                  className="object-cover"
+                />
               </div>
-            )}
-          </div>
-        </section>
+              <h1 className="text-3xl mb-4">
+                {authorInfo[selectedAuthor].name}
+              </h1>
+              <p className="text-base">{authorInfo[selectedAuthor].text}</p>
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
       </main>
     </>
   );

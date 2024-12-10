@@ -35,3 +35,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+[data-radix-dropdown-menu-item]:focus {
+  outline: none;
+  background-color: transparent;
+}

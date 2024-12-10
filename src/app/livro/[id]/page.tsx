@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { projects } from "../../data/projects";
-import Navbar from "@/app/components/navbar";
+
 import Link from "next/link";
 
 const Livro = ({ params }: any) => {
@@ -8,7 +8,7 @@ const Livro = ({ params }: any) => {
 
   return (
     <>
-      <Navbar />
+
       <main className="flex w-full min-h-screen text-white bg-clr3 justify-center">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10 px-4">
           <div className="flex sm:flex-row flex-col h-5/6 sm:space-x-24">

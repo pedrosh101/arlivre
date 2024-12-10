@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { noticias } from "../../data/noticias";
-import Navbar from "@/app/components/navbar";
+
 
 const Noticia = ({ params }: any) => {
   const noticia = noticias.find((proj) => proj.id.toString() === params.id);
 
   return (
     <>
-      <Navbar />
+
       <main className="flex w-full text-white bg-clr3 justify-center">
         <div className="flex flex-col sm:w-3/5 sm:my-16 my-10">
           <div className="flex flex-col space-x-0 px-4 sm:px-0">
