@@ -4,6 +4,7 @@ export const noticias = [
     title: "DEVIR-TEATRO",
     author: "Oliver Olívia",
     subt: "MANTRA MUZAK [Teatro], 10 peças de Mauricio Salles Vasconcelos. São Paulo: Ar Livre, 2024.",
+    link: "https://www.amazon.com.br/dp/6501112303",
     endtxt: "Oliver Olívia é performer, ator e diretor de teatro. É formado em filosofia pela FFLCH-USP e atualmente integra o Laboratório de Práticas Performativas do PPGAC-ECA-USP, onde realiza seu projeto de mestrado sobre teatro performativo e a estética do biodrama. Já foi contemplado com o Prêmio Coelho de Ouro do júri para melhor espetáculo no 29º Festival MixBrasil e o 16º Prêmio Zé Renato. Também é uma pessoa transmasculina não binária.",
     sections: [
       {

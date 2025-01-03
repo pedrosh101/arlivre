@@ -67,7 +67,7 @@ const News: React.FC<ProjectCardProps> = ({ new: noticia }) => {
             pathname: `/noticias/${noticia.id}`,
           }}
         >
-          <button className="text-sm w-fit py-2 px-4 bg-clr1 text-black rounded-sm shadow-md hover:bg-pink-400">
+          <button className="text-sm w-fit py-2 px-4 mt-3 bg-clr1 text-black rounded-sm shadow-md hover:bg-pink-400">
             Ler
           </button>
         </Link>
