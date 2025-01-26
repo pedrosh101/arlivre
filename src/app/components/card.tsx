@@ -2,17 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { twMerge } from "tailwind-merge";
-
-interface Project {
-  id: number;
-  title: string;
-  description: string;
-  category: string;
-  categorylink: string;
-  img: string;
-  ano: string;
-  price: string;
-}
+import {Project} from "../../../types/index"
 
 interface ProjectCardProps {
   project: Project;

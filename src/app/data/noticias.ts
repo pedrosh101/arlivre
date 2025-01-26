@@ -3,6 +3,7 @@ export const noticias = [
     id: 2,
     title: "DEVIR-TEATRO",
     author: "Oliver Olívia",
+    revista: true,
     subt: "MANTRA MUZAK [Teatro], 10 peças de Mauricio Salles Vasconcelos. São Paulo: Ar Livre, 2024.",
     link: "https://www.amazon.com.br/dp/6501112303",
     endtxt: "Oliver Olívia é performer, ator e diretor de teatro. É formado em filosofia pela FFLCH-USP e atualmente integra o Laboratório de Práticas Performativas do PPGAC-ECA-USP, onde realiza seu projeto de mestrado sobre teatro performativo e a estética do biodrama. Já foi contemplado com o Prêmio Coelho de Ouro do júri para melhor espetáculo no 29º Festival MixBrasil e o 16º Prêmio Zé Renato. Também é uma pessoa transmasculina não binária.",
@@ -35,6 +36,7 @@ export const noticias = [
     id: 1,
     title: "Lançamento de livro com ensaios de integrantes dos Laboratórios de Criação – Escrita de Literatura e Teoria (USP)",
     author: "Mauricio Salles Vasconcelos",
+    revista: false,
     sections: [
       {
         texto: "Um Acontecimento no Universo das Oficinas Literárias - Políticas da Escrita em ampla voltagem das artes, áreas de saber e territórios culturais. Mutação  de livro, leitura e literatura à altura do tempo que passa e propõe textos atuantes e atuais. LABORATÓRIOS DE CRIAÇÃO  Linha de Pesquisa da Pós Graduação em Estudos Comparados (FFLCH/USP). Comemoração de 6 Anos de Atividades e Lançamento do LIVRO-LÁPIS *Edições  Ar Livre",

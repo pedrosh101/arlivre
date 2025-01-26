@@ -3,14 +3,8 @@ import React, { useState } from "react";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import {AuthorInfo} from "../../../types/index"
 
-interface AuthorInfo {
-  [key: string]: {
-    name: string;
-    text: string;
-    image: string;
-  };
-}
 
 function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);

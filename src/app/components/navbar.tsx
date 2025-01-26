@@ -97,7 +97,7 @@ const Navbar = () => {
         </svg>
       </div>
       {/* desktop */}
-      <nav className="hidden sm:flex space-x-16 h-12 items-center bg-clr2 text-white justify-center">
+      <nav className="hidden sm:flex space-x-20 h-12 items-center bg-clr2 text-white justify-center">
         <div className="relative">
           <button
             onClick={() => toggleDropdown("colecoes")}
@@ -120,8 +120,14 @@ const Navbar = () => {
         </div>
 
         <Link href="/colecoes/virus">
-          <li className="block px-4 py-2 hover:text-gray-200 ">
+          <li className="block hover:text-gray-200 ">
             Série Vírus (Editora Córrego)
+          </li>
+        </Link>
+
+        <Link href="/revista">
+          <li className="block hover:text-gray-200 ">
+            Revista Ar Livre
           </li>
         </Link>
 
@@ -186,6 +192,11 @@ const Navbar = () => {
             <Link href="/colecoes/virus">
               <li className="block py-12 text-2xl font-medium ">
                 Série Vírus<br/> (Editora Córrego)
+              </li>
+            </Link>
+            <Link href="/revista">
+              <li className="block py-12 text-2xl font-medium ">
+                Revista Ar Livre
               </li>
             </Link>
             <section>
