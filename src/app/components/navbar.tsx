@@ -36,7 +36,7 @@ const Navbar = () => {
     <main className="flex flex-col w-full font-parag text-lg bg-lime-400 text-black">
       {/* Header */}
       <div className="flex w-full justify-center items-center text-sm font-agrandir relative">
-        <h1 className="lg:block hidden cursor-default tracking-wider">Ar Livre</h1>
+        <h1 className="block cursor-default tracking-wider">Ar Livre</h1>
         <Link href="/" className="w-fit">
           <Image
             src={LogoNav}
@@ -46,7 +46,7 @@ const Navbar = () => {
             className="py-6"
           />
         </Link>
-        <h1 className="lg:block hidden pl-1 cursor-default tracking-wider">Edições</h1>
+        <h1 className="block pl-1 cursor-default tracking-wider">Edições</h1>
         <button
           className="lg:hidden absolute right-4 top-6"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -98,7 +98,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <nav className="lg:hidden flex flex-col bg-clr2 text-white py-4 space-y-4">
+        <nav className="lg:hidden flex flex-col bg-clr2 text-white py-4 space-y-6">
           <div>
             <span className="block px-4 py-2 font-semibold">Coleções</span>
             {dropdownLinks.colecoes.map((link, index) => (
@@ -107,10 +107,10 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <Link href="/colecoes/virus" className="block px-4 py-2 hover:text-gray-200">
+          <Link href="/colecoes/virus" className="block px-4 py-2 font-semibold hover:text-gray-200">
             Série Vírus (Editora Córrego)
           </Link>
-          <Link href="/revista" className="block px-4 py-2 hover:text-gray-200">
+          <Link href="/revista" className="block px-4 py-2 font-semibold hover:text-gray-200">
             Revista Ar Livre
           </Link>
           <div>
