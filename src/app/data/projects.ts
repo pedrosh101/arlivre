@@ -1,32 +1,5 @@
 export const projects = [
-  {
-    id: 114,
-    title: "DURO",
-    author: "Amélia Loureiro",
-    description:
-      "Em seu mais recente livro, Amélia Loureiro dá sequência ao projeto de inovação do que se entende como escrita de si. Desta vez, ao modular uma concepção muito própria do gênero romance, a autora imprime uma linguagem inventiva com forte marca de documentalidade e alta voltagem filosófica. Apresenta-se nesta obra a via muito singular de como a escritora se concentra nas relações com a natureza, a contemporaneidade tecnológica, os embates com uma história timbrada por brutalismo e violação, de modo a desbravar tanto uma poética quanto uma ecosofia da escrita.",
-    category: "Editora Córrego - Série Vírus",
-    categorylink: "virus",
-    ano: "2025",
-    pag: "161",
-    price: "R$65,00",
-    img: "/img/15.jpg",
-    buy: "https://mpago.la/1WL2sy8",
-  },
-  {
-    id: 113,
-    title: "Mantra Muzak",
-    author: "Mauricio Salles Vasconcelos ",
-    description:
-      "	O jogo criado entre mantra e muzak deixa ver o dado da repetição imanente à teatralidade, à medida que acentua a máquina de dispositivos e signos os mais diversos em suas renovadas récitas. Reengendra, com o clamor da urgência, as poéticas de teatrólogos como Isabel Câmara e José Vicente, como também o itinerário teatral da atriz Maria Della Costa. Concebe o desenho de vida-arte legado por Jean-Luc Godard, em um ato desenrolado entre a performance e o take fílmico. Algo que também se estende ao cinema de Yasujiro Ozu. Criam-se, em Mantra Muzak, texturas convulsivas dos embates acerca de política/ativismo depois do vírus fascimiliciano no Brasil (motriz da peça Convalescença). Contornos de coreografia e canto (tal como propõe Sônica) modulam andamentos de música eletrônica nos seus incontáveis ciclos e reciclagens. Em Andarilha, mostra-se mais vivamente a errância da busca de tempo e lugar, que permeia os demais textos numa variedade de focos, de ritmos, da musicalidade mesmo, através de peregrinações intermináveis, extremas caminhadas urbanas e joggings confrontadores. O teatro acelera um corpus verbal na mesma gradação em que incita a pausa reflexiva, a meditação – o intervalo corpóreo-gestual da cena –, a contar do mecanismo da repetição, inerente ao rito teatral. Ao compasso da vibração intercambiante do devir-teatro, do teatro em devir.",
-    category: "Ambulante",
-    categorylink: "ambulante",
-    ano: "2024",
-    pag: "266",
-    price: "R$60,00",
-    img: "/img/14.jpg",
-    buy: "https://www.amazon.com.br/dp/6501112303",
-  },
+
   {
     id: 100,
     title: "Bebete Bezos",
@@ -209,5 +182,34 @@ export const projects = [
     img: "/img/13.jpg",
     buy: "https://mpago.la/26fbwjv",
   },
+  {
+    id: 113,
+    title: "Mantra Muzak",
+    author: "Mauricio Salles Vasconcelos ",
+    description:
+      "	O jogo criado entre mantra e muzak deixa ver o dado da repetição imanente à teatralidade, à medida que acentua a máquina de dispositivos e signos os mais diversos em suas renovadas récitas. Reengendra, com o clamor da urgência, as poéticas de teatrólogos como Isabel Câmara e José Vicente, como também o itinerário teatral da atriz Maria Della Costa. Concebe o desenho de vida-arte legado por Jean-Luc Godard, em um ato desenrolado entre a performance e o take fílmico. Algo que também se estende ao cinema de Yasujiro Ozu. Criam-se, em Mantra Muzak, texturas convulsivas dos embates acerca de política/ativismo depois do vírus fascimiliciano no Brasil (motriz da peça Convalescença). Contornos de coreografia e canto (tal como propõe Sônica) modulam andamentos de música eletrônica nos seus incontáveis ciclos e reciclagens. Em Andarilha, mostra-se mais vivamente a errância da busca de tempo e lugar, que permeia os demais textos numa variedade de focos, de ritmos, da musicalidade mesmo, através de peregrinações intermináveis, extremas caminhadas urbanas e joggings confrontadores. O teatro acelera um corpus verbal na mesma gradação em que incita a pausa reflexiva, a meditação – o intervalo corpóreo-gestual da cena –, a contar do mecanismo da repetição, inerente ao rito teatral. Ao compasso da vibração intercambiante do devir-teatro, do teatro em devir.",
+    category: "Ambulante",
+    categorylink: "ambulante",
+    ano: "2024",
+    pag: "266",
+    price: "R$60,00",
+    img: "/img/14.jpg",
+    buy: "https://www.amazon.com.br/dp/6501112303",
+  },
+  {
+    id: 114,
+    title: "DURO",
+    author: "Amélia Loureiro",
+    description:
+      "Em seu mais recente livro, Amélia Loureiro dá sequência ao projeto de inovação do que se entende como escrita de si. Desta vez, ao modular uma concepção muito própria do gênero romance, a autora imprime uma linguagem inventiva com forte marca de documentalidade e alta voltagem filosófica. Apresenta-se nesta obra a via muito singular de como a escritora se concentra nas relações com a natureza, a contemporaneidade tecnológica, os embates com uma história timbrada por brutalismo e violação, de modo a desbravar tanto uma poética quanto uma ecosofia da escrita.",
+    category: "Editora Córrego - Série Vírus",
+    categorylink: "virus",
+    ano: "2025",
+    pag: "161",
+    price: "R$65,00",
+    img: "/img/15.jpg",
+    buy: "https://mpago.la/1WL2sy8",
+  },
+
 
 ];
