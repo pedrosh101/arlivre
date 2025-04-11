@@ -9,16 +9,16 @@ const ArLivre = () => {
       <main className="flex flex-col w-full text-white bg-clr3 text-center min-h-screen">
 
         <div className="flex flex-col sm:my-16 my-10 space-y-8 p-4 items-center">
-          <div className="flex relative w-full h-64">
+          <div className="flex relative w-64 h-64">
             <Image
               src={Logo}
               alt="img"
               fill
-              className="object-contain sm:object-top px-4"
+              className="object-cover sm:object-top rounded-sm"
             />
           </div>
 
-          <p className="text-xl font-light sm:w-3/5">
+          <p className="text-lg text-justify font-light sm:w-3/5">
             Tem como projeto coleções dedicadas a ensaios sobre arte, política, cultura do presente, narrativas e escritas performáticas norteadas por traços de experimentalidade/criação de linguagens. Orienta-se sob o signo das histórias da cultura e da literatura na
             contemporaneidade.
           </p>
