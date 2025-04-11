@@ -1,5 +1,19 @@
 export const projects = [
   {
+    id: 114,
+    title: "DURO",
+    author: "Amélia Loureiro",
+    description:
+      "Em seu mais recente livro, Amélia Loureiro dá sequência ao projeto de inovação do que se entende como escrita de si. Desta vez, ao modular uma concepção muito própria do gênero romance, a autora imprime uma linguagem inventiva com forte marca de documentalidade e alta voltagem filosófica. Apresenta-se nesta obra a via muito singular de como a escritora se concentra nas relações com a natureza, a contemporaneidade tecnológica, os embates com uma história timbrada por brutalismo e violação, de modo a desbravar tanto uma poética quanto uma ecosofia da escrita.",
+    category: "Editora Córrego - Série Vírus",
+    categorylink: "virus",
+    ano: "2025",
+    pag: "161",
+    price: "R$65,00",
+    img: "/img/15.jpg",
+    buy: "https://mpago.la/1WL2sy8",
+  },
+  {
     id: 113,
     title: "Mantra Muzak",
     author: "Mauricio Salles Vasconcelos ",
