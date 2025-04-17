@@ -19,15 +19,16 @@ const Livro = ({ params }: any) => {
                   src={livro?.img!}
                   alt="img"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-contain sm:object-top"
                 />
               </div>
             </div>
             {/* right */}
-            <div className="flex flex-col sm:w-3/5 space-y-4 font-semibold px-4 lg:px-0">
+            <div className="flex flex-col sm:w-3/5 space-y-4 px-4 lg:px-0">
               <h1 className="text-4xl">{livro?.title}</h1>
               <h1 className="text-base font-semibold">{livro?.author}</h1>
-              <h1 className="text-base font-medium pb-4">
+              <h1 className="text-base pb-4">
                 {livro?.description}
               </h1>
               <a href={livro?.buy} target="_blank">

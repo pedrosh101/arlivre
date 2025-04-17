@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { twMerge } from "tailwind-merge";
-import {Project} from "../../../types/index"
+import { Project } from "../../../types/index";
 
 interface ProjectCardProps {
   project: Project;
@@ -10,22 +9,13 @@ interface ProjectCardProps {
 
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="flex flex-col justify-between text-center h-[25rem] m-1 p-4 border border-gray-300 bg-clr3 hover:bg-clr3/80 rounded-md items-center text-white">
-      
-      <div className={twMerge("relative overflow-hidden h-44 w-full")}>
-        <Link
-          href={{
-            pathname: `/livro/${project.id}`,
-          }}
-        >
-          <Image
-            src={project.img}
-            alt="Imagem"
-            fill
-            className="object-contain"
-          />
-        </Link>
-      </div>
+    <div className="flex flex-col justify-between text-center space-y-1 md:space-y-2 m-1 p-4 border border-gray-300 bg-clr3 hover:bg-clr3/80 rounded-md items-center text-white">
+      <Link
+        href={`/livro/${project.id}`}
+        className="relative h-48 w-full overflow-hidden"
+      >
+        <Image src={project.img} alt="Imagem" fill className="object-contain" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
+      </Link>
 
       <Link
         href={{
@@ -45,12 +35,13 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
 
       <p className="text-sm">{project.price}</p>
 
-      <Link className="flex"
+      <Link
+        className="flex"
         href={{
           pathname: `/livro/${project.id}`,
         }}
       >
-        <button className="text-sm w-fit py-2 px-3 bg-clr1 text-black rounded-sm shadow-md hover:bg-pink-400">
+        <button className="text-sm w-fit py-1 px-3 rounded-sm bg-clr1 text-black shadow-md hover:bg-pink-400">
           COMPRAR
         </button>
       </Link>
