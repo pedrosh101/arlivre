@@ -26,7 +26,7 @@ export const projects = [
     pag: "101",
     price: "R$40,00",
     img: "/img/2.jpeg",
-    buy: "https://mpago.la/2CrM5ko",
+    buy: "https://www.amazon.com.br/dp/6500660609",
   },
   {
     id: 102,
@@ -68,7 +68,7 @@ export const projects = [
     pag: "74",
     price: "R$45,00",
     img: "/img/5.jpeg",
-    buy: "https://mpago.la/1b9NUxK",
+    buy: "https://www.amazon.com.br/Diwan/dp/6501038359",
   },
   {
     id: 105,
@@ -206,7 +206,7 @@ export const projects = [
     categorylink: "virus",
     ano: "2025",
     pag: "161",
-    price: "R$65,00",
+    price: "R$50,00",
     img: "/img/15.jpg",
     buy: "https://mpago.la/1WL2sy8",
   },
