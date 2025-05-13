@@ -82,7 +82,7 @@ export const projects = [
     pag: "162",
     price: "R$40,00",
     img: "/img/6.jpg",
-    buy: "https://mpago.la/1LDLPwA",
+    buy: "https://www.amazon.com.br/Jacques-Vasconcelos-Mauricio-Salles-tradutor/dp/8567240921/ref=sr_1_3?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-3",
   },
   {
     id: 106,
@@ -110,7 +110,7 @@ export const projects = [
     pag: "40",
     price: "R$35,00",
     img: "/img/8.jpg",
-    buy: "https://mpago.la/19hJ66L",
+    buy: "https://www.amazon.com.br/Kafka-f%C3%A9rias-Dami%C3%A1n-tradutor-Tabarovsky/dp/8570390262/ref=sr_1_2?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-2",
   },
   {
     id: 108,
@@ -152,7 +152,7 @@ export const projects = [
     pag: "96",
     price: "R$40,00",
     img: "/img/11.jpg",
-    buy: "https://mpago.la/1mGRTei",
+    buy: "https://www.amazon.com.br/dp/6588822219",
   },
   {
     id: 111,
@@ -166,7 +166,7 @@ export const projects = [
     pag: "78",
     price: "R$40,00",
     img: "/img/12.jpeg",
-    buy: "https://mpago.la/2hxD2bQ",
+    buy: "https://www.amazon.com.br/dp/6588822529",
   },
   {
     id: 112,
@@ -180,7 +180,7 @@ export const projects = [
     pag: "74",
     price: "R$40,00",
     img: "/img/13.jpg",
-    buy: "https://mpago.la/26fbwjv",
+    buy: "https://www.amazon.com.br/dp/6588822510/ref=sr_1_5?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-5",
   },
   {
     id: 113,
@@ -208,7 +208,7 @@ export const projects = [
     pag: "161",
     price: "R$50,00",
     img: "/img/15.jpg",
-    buy: "https://mpago.la/1WL2sy8",
+    buy: "https://www.amazon.com.br/dp/658882260X/ref=sr_1_4?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-4",
   },
 
 
