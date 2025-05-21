@@ -12,7 +12,7 @@ export const projects = [
     pag: "313",
     price: "R$60,00",
     img: "/img/1.jpeg",
-    buy: "https://mpago.la/1VEoLv8",
+    buy: "https://www.amazon.com.br/dp/650084999X/ref=sr_1_13?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-13",
   },
   {
     id: 101,
@@ -40,7 +40,7 @@ export const projects = [
     pag: "115",
     price: "R$40,00",
     img: "/img/3.jpeg",
-    buy: "https://mpago.la/1zfsyv4",
+    buy: "https://www.amazon.com.br/dp/6500660617/ref=sr_1_14?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-14",
   },
   {
     id: 103,
@@ -96,7 +96,7 @@ export const projects = [
     pag: "96",
     price: "R$40,00",
     img: "/img/7.jpg",
-    buy: "https://mpago.la/1fectpm",
+    buy: "https://www.amazon.com.br/dp/856724093X/ref=sr_1_4?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-4",
   },
   {
     id: 107,
@@ -124,7 +124,7 @@ export const projects = [
     pag: "166",
     price: "R$40,00",
     img: "/img/9.jpg",
-    buy: "https://mpago.la/2NziG23",
+    buy: "https://www.amazon.com.br/Postar-popstar-Teti-Conrado/dp/8570390270/ref=sr_1_2?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-2",
   },
   {
     id: 109,
@@ -138,7 +138,7 @@ export const projects = [
     pag: "94",
     price: "R$40,00",
     img: "/img/10.jpg",
-    buy: "https://mpago.la/25XCJKf",
+    buy: "https://www.amazon.com.br/MENINO-PROLET%C3%81RIO-NARRATIVAS-OSVALDO-LAMBORGHINI/dp/6588822200/ref=sr_1_10?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-10",
   },
   {
     id: 110,
