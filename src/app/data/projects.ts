@@ -185,7 +185,7 @@ export const projects = [
   {
     id: 113,
     title: "Mantra Muzak",
-    author: "Mauricio Salles Vasconcelos ",
+    author: "Mauricio Salles Vasconcelos",
     description:
       "	O jogo criado entre mantra e muzak deixa ver o dado da repetição imanente à teatralidade, à medida que acentua a máquina de dispositivos e signos os mais diversos em suas renovadas récitas. Reengendra, com o clamor da urgência, as poéticas de teatrólogos como Isabel Câmara e José Vicente, como também o itinerário teatral da atriz Maria Della Costa. Concebe o desenho de vida-arte legado por Jean-Luc Godard, em um ato desenrolado entre a performance e o take fílmico. Algo que também se estende ao cinema de Yasujiro Ozu. Criam-se, em Mantra Muzak, texturas convulsivas dos embates acerca de política/ativismo depois do vírus fascimiliciano no Brasil (motriz da peça Convalescença). Contornos de coreografia e canto (tal como propõe Sônica) modulam andamentos de música eletrônica nos seus incontáveis ciclos e reciclagens. Em Andarilha, mostra-se mais vivamente a errância da busca de tempo e lugar, que permeia os demais textos numa variedade de focos, de ritmos, da musicalidade mesmo, através de peregrinações intermináveis, extremas caminhadas urbanas e joggings confrontadores. O teatro acelera um corpus verbal na mesma gradação em que incita a pausa reflexiva, a meditação – o intervalo corpóreo-gestual da cena –, a contar do mecanismo da repetição, inerente ao rito teatral. Ao compasso da vibração intercambiante do devir-teatro, do teatro em devir.",
     category: "Ambulante",
@@ -209,6 +209,20 @@ export const projects = [
     price: "R$50,00",
     img: "/img/15.jpg",
     buy: "https://www.amazon.com.br/dp/658882260X/ref=sr_1_4?m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&s=merchant-items&sr=1-4",
+  },
+  {
+    id: 115,
+    title: "GUERRA GLOBAL SUBÚRBIO SATÉLITE",
+    author: "Mauricio Salles Vasconcelos / Marcus Siqueira",
+    description:
+      "Livro de poesia e álbum musical, o projeto apresenta uma livre leitura de Crack Wars - Literature, Addiction, Mania (1992), ensaio da filósofa Avital Ronell. Guerra Global Subúrbio Satélite dá continuidade ao diálogo poético e musical, empreendido em Livro Telefone Rua (2022) por Mauricio Salles Vasconcelos e Marcus Siqueira, com a obra da grande pensadora contemporânea (tendo como eixo The Telephone Book, 1989). O elo entre sonoridade/literatura/filosofia se reativa no presente projeto. O foco recai nas modalidades do global em várias esferas da linguagem, criação e vida (a contar da ênfase em conomia, guerra, tecnocultura), envolvendo as artes da música, da poesia e da performance na atualidade. Através do QR Code, constante na parte final deste volume, o acesso à composição criada a partir dos poemas, concebida em 13 faixas, será viabilizado.",
+    category: "Mutações em Tempo Presente",
+    categorylink: "mutacoes-em-tempo-presente",
+    ano: "2025",
+    pag: "100",
+    price: "R$70,00",
+    img: "/img/16.jpeg",
+    buy: "https://www.amazon.com.br/GUERRA-GLOBAL-SUB%C3%9ARBIO-SAT%C3%89LITE-VASCONCELOS/dp/6501435927/ref=mp_s_a_1_6",
   },
 
 
