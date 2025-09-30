@@ -29,6 +29,10 @@ const Navbar = () => {
         href: "/colecoes/ambulante",
         label: "Ambulante (Escritas Performáticas)",
       },
+      {
+        href: "/colecoes/poesia-vida-linguagem",
+        label: "Poesia, Vida, Linguagem",
+      },
     ],
     sobre: [
       { href: "/ar-livre", label: "Apresentação" },

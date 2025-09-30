@@ -216,8 +216,8 @@ export const projects = [
     author: "Mauricio Salles Vasconcelos / Marcus Siqueira",
     description:
       "Livro de poesia e álbum musical, o projeto apresenta uma livre leitura de Crack Wars - Literature, Addiction, Mania (1992), ensaio da filósofa Avital Ronell. Guerra Global Subúrbio Satélite dá continuidade ao diálogo poético e musical, empreendido em Livro Telefone Rua (2022) por Mauricio Salles Vasconcelos e Marcus Siqueira, com a obra da grande pensadora contemporânea (tendo como eixo The Telephone Book, 1989). O elo entre sonoridade/literatura/filosofia se reativa no presente projeto. O foco recai nas modalidades do global em várias esferas da linguagem, criação e vida (a contar da ênfase em conomia, guerra, tecnocultura), envolvendo as artes da música, da poesia e da performance na atualidade. Através do QR Code, constante na parte final deste volume, o acesso à composição criada a partir dos poemas, concebida em 13 faixas, será viabilizado.",
-    category: "Mutações em Tempo Presente",
-    categorylink: "mutacoes-em-tempo-presente",
+    category: "Poesia, Vida, Linguagem",
+    categorylink: "poesia-vida-linguagem",
     ano: "2025",
     pag: "100",
     price: "R$70,00",
