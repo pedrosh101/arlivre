@@ -28,7 +28,7 @@ export const colecoes = [
     title: "Poesia, Vida, Linguagem",
     caminho: "poesia-vida-linguagem",
     texto:
-      "Uma coleção centrada na poeticidade do mundo (como formula o filósofo Kostas Axelos). Criação literária tomada por concepções as mais abertas, dissonantes com o mercado e a marcação das tendências em vigor. Sob o signo de Mário Faustino, ao lançar a vertente de 'vida toda linguagem', busca-se o traço experimental desbravador de vias nascentes da poética na contemporaneidade. A partir de um embasado e amplo repertório, a ênfase recai na sintonia com o senso do mundo, a que Jean-Luc Nancy se referia ao sondar os novos desígnios de arte, linguagem, contemporaneidade com o despontar das problemáticas globalizantes, técnicas e políticas entre o século XX e o impacto, impasse do presente milênio.",
+      "Uma coleção centrada na poeticidade do mundo (como formula o filósofo Kostas Axelos). Criação literária tomada por concepções as mais abertas, dissonantes com o mercado e a marcação das tendências em vigor. Sob o signo de Mário Faustino, ao lançar a vertente de 'vida toda linguagem', busca-se o traço experimental desbravador de vias nascentes da poética na contemporaneidade. A partir de um embasado e amplo repertório, a ênfase recai na sintonia com o senso do mundo, a que Jean-Luc Nancy se referia ao sondar os novos desígnios de saber e arte com o despontar das: problemáticas globalizantes, técnicas e políticas entre o século XX e o impacto, impasse do presente milênio.",
 
   },
   {
