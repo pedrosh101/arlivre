@@ -220,9 +220,23 @@ export const projects = [
     categorylink: "poesia-vida-linguagem",
     ano: "2025",
     pag: "100",
-    price: "R$70,00",
+    price: "R$60,00",
     img: "/img/16.jpeg",
     buy: "https://www.amazon.com.br/GUERRA-GLOBAL-SUB%C3%9ARBIO-SAT%C3%89LITE-VASCONCELOS/dp/6501435927/ref=mp_s_a_1_6",
+  },
+  {
+    id: 116,
+    title: "Romance A Caminho - Narrativa em tempo presente",
+    author: "Mauricio Salles Vasconcelos / Felipe Souza [Organizadores]",
+    description:
+      "O Seminário transmitido pelo canal Youtube da FFLCH/USP (de 18 a 21 de julho de 2022), com o título “Romance A Caminho – Mutações de um gênero literário no presente”, propiciou a reunião de ensaios e trechos de narrativas contidos neste livro. Incontáveis vertentes de escrita conceituadas e elaboradas por pesquisadores de Literatura Comparada também romancistas, alguns com projetos iniciais, outros com obras já publicadas, trazem à cena de hoje um universo sempre posto em debate, quando não refutação, no entanto, presentificado com enorme produção em todo mundo. O Romance ganha aqui títulos vários e angulações provocadoras. A despeito do regime dominante audiovisual a impor segmentos de fabulação aos olhos fixados em serialidades, compactações cinemáticas, streamings  concebidos a partir de entrechos literários.",
+    category: "Mutações em Tempo Presente",
+    categorylink: "mutacoes-em-tempo-presente",
+    ano: "2025",
+    pag: "325",
+    price: "R$60,00",
+    img: "/img/17.jpg",
+    buy: "https://wa.me/5511910013037?text=Tenho%20interesse%20no%20livro%20ROMANCE%20A%20CAMINHO",
   },
 
 
