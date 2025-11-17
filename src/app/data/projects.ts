@@ -236,7 +236,7 @@ export const projects = [
     pag: "325",
     price: "R$60,00",
     img: "/img/17.jpg",
-    buy: "https://wa.me/5511910013037?text=Tenho%20interesse%20no%20livro%20ROMANCE%20A%20CAMINHO",
+    buy: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20ROMANCE%20A%20CAMINHO",
   },
 
 
