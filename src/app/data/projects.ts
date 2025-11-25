@@ -240,7 +240,7 @@ export const projects = [
   },
   {
     id: 117,
-    title: "África Potência Exemplos , de João Vário",
+    title: "África Potência - Exemplos, de João Vário",
     author: "Mauricio Salles Vasconcelos",
     description:
       "ÁFRICA POTÊNCIA -  Exemplos , de João Vário. Ensaio de Mauricio Salles Vasconcelos. Este é o primeiro livro escrito sobre a poética de João Vário, um dos heterônimos de João Manuel Varela, autor cabo-verdiano. Dá destaque ao dado de que Vário pauta seu projeto pela adoção de um encaminhamento propositivo na série de livros (9 publicados de um projeto de 12) intitulados Exemplos. Seu trabalho se destaca como um dos maiores escritos do período contemporâneo, compreendido este desde a segunda metade do século passado, com incidência crescente em nossa atualidade. Por meio de uma voltagem indagativa e escritural que faz da África um polo impactante de criação, poeticidade e exemplaridade são tão fortalecidas quanto intercambiadas para se recompor as noções de humano e seus documentos de vida-arte nos transcursos do tempo. Como expressa o ensaísta José Paulo Palumbo no Posfácio de África Potência, “Insurgente nos modos de tramar suas iluminações transdisciplinarizadas — Avital Ronell, Mbembe, Pál Pelbart, Agamben, Sloterdijk, entre outros pensadores —, trabalhando-as em ramificada rede, Mauricio Salles Vasconcelos estabelece uma leitura prismática daquela que se coloca como uma das grandes vozes da poesia escrita em língua portuguesa durante a derradeira metade do século XX, cuja obra, ainda não editada no Brasil e pouco discutida na academia, merece a sensível atenção demonstrada neste volume”",
