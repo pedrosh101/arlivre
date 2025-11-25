@@ -7,6 +7,13 @@ interface ProjectCardProps {
   project: Project;
 }
 
+const italicizeWords = (text: string) => {
+  return text
+    .replace(/exemplo(s)?/gi, "<em>$&</em>")
+
+};
+
+
 const Card: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="flex flex-col justify-between text-center space-y-1 md:space-y-2 m-1 p-4 border border-gray-300 bg-clr3 hover:bg-clr3/80 rounded-md items-center text-white">
@@ -22,7 +29,10 @@ const Card: React.FC<ProjectCardProps> = ({ project }) => {
           pathname: `/livro/${project.id}`,
         }}
       >
-        <h2 className="font-semibold text-lg 2xl:text-xl">{project.title}</h2>
+        <h2
+  className="font-semibold text-lg 2xl:text-xl"
+  dangerouslySetInnerHTML={{ __html: italicizeWords(project.title) }}
+/>
       </Link>
 
       <Link
