@@ -46,6 +46,8 @@ const Livro = ({ params }: any) => {
                   __html: italicizeWords(livro?.description || ""),
                 }}
               />
+              <div className="flex gap-4">
+
               {livro?.buy && livro.buy.trim() !== "" && (
                 <a href={livro.buy} target="_blank">
                   <button className="bg-clr1 hover:bg-pink-400 text-black py-2 px-4 rounded-sm w-fit shadow-md">
@@ -59,6 +61,7 @@ const Livro = ({ params }: any) => {
                   Adquirir via WhatsApp
                 </button>
               </a>
+              </div>
             </div>
           </div>
           {/* info */}
