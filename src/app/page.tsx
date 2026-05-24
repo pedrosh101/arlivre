@@ -13,7 +13,7 @@ export default function Home() {
       }}
     >
       {/* Notícias  */}
-      <div className="order-1 sm:order-2 flex flex-col justify-center h-fit sm:w-2/6 rounded-md md:bg-slate-100/20 bg-slate-100/40 mb-4 sm:mb-0">
+      <div className="order-1 sm:order-2 flex flex-col justify-center h-fit sm:w-2/6 rounded-md md:bg-slate-100/20 bg-slate-100/40 mb-4 sm:mb-0 gap-6 pl-8">
         <h1 className="block lg:hidden text-2xl text-black rounded-md p-2 w-fit">
           Notícias
         </h1>
@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       {/* Livros */}
-      <div className="order-2 sm:order-1 grid sm:grid-cols-3 grid-cols-1 sm:w-4/6 rounded-md md:bg-slate-100/20 bg-slate-100/40 mb-4 sm:mb-0 auto-rows-min">
+      <div className=" grid sm:grid-cols-3 grid-cols-1 sm:w-4/6 rounded-md md:bg-slate-100/20 bg-slate-100/40 mb-4 sm:mb-0 auto-rows-min gap-6">
         <h1 className="block lg:hidden text-2xl text-black rounded-md p-2 w-fit">
           Livros
         </h1>

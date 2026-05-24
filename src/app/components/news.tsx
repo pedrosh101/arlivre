@@ -25,40 +25,49 @@ const News: React.FC<ProjectCardProps> = ({ new: noticia }) => {
       : "");
 
   return (
-    <div className="flex justify-between h-fit flex-1 border border-gray-800 bg-clr3 hover:bg-clr3/80 rounded-md p-4 text-white m-1 space-x-4">
+    <div className="group flex h-fit flex-1 space-x-4 overflow-hidden rounded-xl border border-white/10 bg-black/[0.2] p-4 text-white transition-all duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.08] hover:backdrop-blur-md hover:shadow-2xl">
+      
+      {/* Imagem */}
       <Link
-        href={{
-          pathname: `/noticias/${noticia.id}`,
-        }}
-        className="relative h-48 w-48 overflow-hidden"
+        href={`/noticias/${noticia.id}`}
+        className="relative flex h-40 w-32 shrink-0 items-center justify-center overflow-hidden rounded-lg"
       >
+        {/* glow discreto */}
+        <div className="absolute h-20 w-20 rounded-full bg-clr1/0 blur-2xl transition-all duration-500 group-hover:bg-clr1/20" />
+
         <Image
           src={noticia.miniatureImg}
-          alt="Imagem"
+          alt={noticia.title}
           fill
-          className="object-contain"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="relative z-10 object-contain p-2 transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 768px) 100vw, 33vw"
         />
       </Link>
-      <div className="w-3/5">
-        <h2 className="font-semibold text-base mb-2">
-          <Link
-            href={{
-              pathname: `/noticias/${noticia.id}`,
-            }}
-          >
-            {noticia.title}
-          </Link>
-        </h2>
-        <p className="text-sm text-white">{textoCortado}</p>
 
+      {/* Conteúdo */}
+      <div className="flex flex-1 flex-col justify-between">
+        
+        <div>
+          {/* título */}
+          <Link href={`/noticias/${noticia.id}`}>
+            <h2 className="mb-2 text-lg font-semibold leading-snug transition-colors duration-300 group-hover:text-clr1">
+              {noticia.title}
+            </h2>
+          </Link>
+
+          {/* texto */}
+          <p className="text-sm leading-relaxed text-white/80">
+            {textoCortado}
+          </p>
+        </div>
+
+        {/* botão */}
         <Link
-          href={{
-            pathname: `/noticias/${noticia.id}`,
-          }}
+          href={`/noticias/${noticia.id}`}
+          className="mt-4"
         >
-          <button className="text-sm w-fit mt-2 py-1 px-3 rounded-sm bg-clr1 text-black shadow-md hover:bg-pink-400">
-            LER
+          <button className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:border-clr1 hover:bg-clr1 hover:text-black">
+            Ler notícia
           </button>
         </Link>
       </div>
