@@ -27,7 +27,7 @@ export const projects = [
     categorylink: "mutacoes-em-tempo-presente",
     ano: "2023",
     pag: "101",
-    price: "R$40,00",
+    price: "R$50,00",
     img: "/img/2.jpeg",
     buy: "https://www.amazon.com.br/dp/6500660609",
   },
@@ -180,7 +180,7 @@ export const projects = [
     categorylink: "virus",
     ano: "2022",
     pag: "96",
-    price: "R$40,00",
+    price: "R$50,00",
     img: "/img/11.jpg",
     buy: "https://www.amazon.com.br/dp/6588822219",
   },
@@ -272,7 +272,8 @@ export const projects = [
   {
     id: 116,
     title: "Romance A Caminho - Narrativa em tempo presente",
-    whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20ROMANCE%20A%20CAMINHO",
+    whats:
+      "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20ROMANCE%20A%20CAMINHO",
     author: "Mauricio Salles Vasconcelos / Felipe Souza [Organizadores]",
     description:
       "O Seminário transmitido pelo canal Youtube da FFLCH/USP (de 18 a 21 de julho de 2022), com o título “Romance A Caminho – Mutações de um gênero literário no presente”, propiciou a reunião de ensaios e trechos de narrativas contidos neste livro. Incontáveis vertentes de escrita conceituadas e elaboradas por pesquisadores de Literatura Comparada também romancistas, alguns com projetos iniciais, outros com obras já publicadas, trazem à cena de hoje um universo sempre posto em debate, quando não refutação, no entanto, presentificado com enorme produção em todo mundo. O Romance ganha aqui títulos vários e angulações provocadoras. A despeito do regime dominante audiovisual a impor segmentos de fabulação aos olhos fixados em serialidades, compactações cinemáticas, streamings  concebidos a partir de entrechos literários.",
@@ -287,7 +288,8 @@ export const projects = [
   {
     id: 117,
     title: "África Potência - Exemplos, de João Vário",
-      whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20África%20Potência",
+    whats:
+      "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20África%20Potência",
 
     author: "Mauricio Salles Vasconcelos",
     description:
@@ -299,5 +301,37 @@ export const projects = [
     price: "R$70,00",
     img: "/img/18.jpg",
     buy: "",
+  },
+  {
+    id: 118,
+    title: "À SANTIDADE DO JOGADOR DE JOGOS DE AZAR",
+    whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20%C3%80%20SANTIDADE%20DO%20JOGADOR%20DE%20JOGOS%20DE%20AZAR",
+
+    author: "Héctor Libertella",
+    description:
+      "Último livro do célebre escritor argentino ainda inédito em português até agora, que se situa na geração de escritores pós-boom latino-americano. Publicado postumamente, À santidade do jogador de jogos de azar é uma reunião de textos (capítulos/contos) recolhidos entre pessoas próximas para quem o autor os destinou antes de sua morte. O resultado é um romance fora dos padrões, em que personagens se (des)conectam por uma Buenos Aires anônima, entretanto cartografada por apostas-vivências de toda sorte e azar.",
+    category: "Narrar, Cartografar",
+    categorylink: "narrar-cartografar",
+    ano: "2026",
+    pag: "107",
+    price: "R$80,00",
+    img: "/img/19.jpeg",
+    buy: "https://www.amazon.com.br/dp/6597578406/ref=mp_s_a_1_7?dib=eyJ2IjoiMSJ9.ngRCC5fOsSM7_46z1Y-6s5Fv3bWYRwA5X2KwK-cjx9Yjd3TS4n1aHBZ_F_DdJtQQ3ppZimGEOUh9-AVdq2urdDgpMdgkkyb_4xQxHyWVY1igJ0lWEU3KvzZqCymkq6rymPxnnxuKu5tosZk3BczDGTdWbSkOW9CR-QgGyAlvGmOUoRqDq-1kygAaldBcuhpQrjwpndoebFFXbO8v-W8NLw.sgq3RCddikndfOnvm4lnqQOI25Bvwa5qjmikyQT6APU&dib_tag=se&m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&qid=1781216075&s=merchant-items&sr=1-7",
+  },
+  {
+    id: 119,
+    title: "Fantasma da Vanguarda",
+    whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20Fantasma%20da%20Vanguarda",
+
+    author: "Damián Tabarovsky",
+    description:
+      "As premissas trazidas com o Fantasma da Vanguarda colocam o presente numa esfera de pontualidade e urgência. O grande ensaísta e escritor argentino Damián Tabarovsky propõe uma série de teses mobilizantes, possibilitando o lançamento da literatura para direções transformadoras. Através de um claro corte com o academicismo de vanguarda, a ditadura dos editores-autores pautados por linhas homogêneas/hegemônicas do que é a literatura (a contar de agendas, enquadramentos programáticos do que se apresenta como legível, dotado de visibilidade, enfim publicável).",
+    category: "Mutações em Tempo Presente",
+    categorylink: "mutacoes-em-tempo-presente",
+    ano: "2026",
+    pag: "198",
+    price: "R$80,00",
+    img: "/img/20.jpeg",
+    buy: "https://www.amazon.com.br/dp/650205126X/ref=mp_s_a_1_11?dib=eyJ2IjoiMSJ9.ngRCC5fOsSM7_46z1Y-6s5Fv3bWYRwA5X2KwK-cjx9Yjd3TS4n1aHBZ_F_DdJtQQ3ppZimGEOUh9-AVdq2urdDgpMdgkkyb_4xQxHyWVY1igJ0lWEU3KvzZqCymkq6rymPxnnxuKu5tosZk3BczDGTdWbSkOW9CR-QgGyAlvGmOUoRqDq-1kygAaldBcuhpQrjwpndoebFFXbO8v-W8NLw.sgq3RCddikndfOnvm4lnqQOI25Bvwa5qjmikyQT6APU&dib_tag=se&m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&qid=1781216222&s=merchant-items&sr=1-11",
   },
 ];

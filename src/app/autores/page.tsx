@@ -10,9 +10,12 @@ function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
   const authors = [
-    "Tiago Cfer",
-    "Mauricio Salles Vasconcelos",
+    "Damián Tabarovsky",
+    "Héctor Libertella",
+    "Marcus Siqueira",
     "Mario Bellatin",
+    "Mauricio Salles Vasconcelos",
+    "Tiago Cfer",
   ];
 
   const authorInfo: AuthorInfo = {
@@ -30,6 +33,21 @@ function Autores() {
       name: "Mario Bellatin",
       text: "Mario Bellatin nasceu no México e cresceu no Peru, onde deu início à sua trajetória na literatura com o romance Mujeres de sal (1986), editado e vendido de forma independente. Atualmente, é reconhecido como um dos nomes mais inventivos da literatura hispano-americana. Dentre as mais de trinta narrativas publicadas, algumas como Salão de beleza (1994), Flores (2001) e Lições para uma lebre morta (2005) já são consideradas clássicos contemporâneos.",
       image: "/img/mario.jpg",
+    },
+    "Héctor Libertella": {
+      name: "Héctor Libertella",
+      text: "Héctor Libertella nasceu em Bahía Blanca, em 1945 e faleceu em Buenos Aires, em 2006. Ensinou teoria e crítica literária nas universidades de Nova York, México e Buenos Aires. Foi editor em distintas casas da América Latina e também fez carreira como pesquisador no CONICET, onde desenvolveu seu trabalho na área da filologia. Publicou, entre muitos outros, os livros: El camino de los hiperbóreos (Prêmio Paidós, Buenos Aires, 1968); Aventuras de los miticistas (Prêmio internacional Monte Ávila, Caracas, 1971); Personas en pose de combate (1975); ¡Cavernícolas! (1985); El paseo internacional del perverso (Prêmio Juan Rulfo, Paris, 1986); Pathografeia (1991); El árbol de Saussure, relato-utopía (2000); La Librería Argentina (2003); La Arquitectura del Fantasma (2006); El lugar que no está (2006); Zettel (2009).",
+      image: "/img/hector.jpeg",
+    },
+    "Damián Tabarovsky": {
+      name: "Damián Tabarovsky",
+      text: "Damián Tabarovsky nasceu em 1967, em Buenos Aires, cidade onde reside. Diplomou-se na École des Hautes Études en Sciences Sociales, de Paris. Ensaísta e romancista, seus livros foram traduzidos em inglês, francês, alemão, russo, grego, sueco, hebreu e português. No Brasil, teve publicados Kafka de férias (romance) e Literatura de esquerda (ensaio).",
+      image: "/img/damian.jpeg",
+    },
+    "Marcus Siqueira": {
+      name: "Marcus Siqueira",
+      text: "Natural de Caratinga (MG), Marcus Siqueira estudou composição com Willy Corrêa de Oliveira logo após sua graduação em violão erudito sob orientação de Edelton Gloeden na Universidade de São Paulo (USP). Entre 1993 e 2002, deu continuidade aos seus estudos de composição em aulas particulares com o mestre. Sua produção orquestral soma 19 obras, estreadas por grupos de excelência como a Orquestra Sinfônica do Estado de São Paulo (OSESP), a Filarmônica de Minas Gerais (OFMG), a Orquestra Sinfônica Nacional (OSN) e a Sinfônica da USP (OSUSP). Suas partituras foram regidas por maestros como Joana Carneiro, Ernani Aguiar, Ricardo Bologna, Marcos Arakaki e Luthero Rodrigues. Como arranjador, realizou transcrições para a Banda Sinfônica do Estado de São Paulo e para a Orquestra Brasileira de Sopros de Tatuí.",
+      image: "/img/marcus.jpeg",
     },
   };
 
