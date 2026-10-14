@@ -334,4 +334,19 @@ export const projects = [
     img: "/img/20.jpeg",
     buy: "https://www.amazon.com.br/dp/650205126X/ref=mp_s_a_1_11?dib=eyJ2IjoiMSJ9.ngRCC5fOsSM7_46z1Y-6s5Fv3bWYRwA5X2KwK-cjx9Yjd3TS4n1aHBZ_F_DdJtQQ3ppZimGEOUh9-AVdq2urdDgpMdgkkyb_4xQxHyWVY1igJ0lWEU3KvzZqCymkq6rymPxnnxuKu5tosZk3BczDGTdWbSkOW9CR-QgGyAlvGmOUoRqDq-1kygAaldBcuhpQrjwpndoebFFXbO8v-W8NLw.sgq3RCddikndfOnvm4lnqQOI25Bvwa5qjmikyQT6APU&dib_tag=se&m=A2UBGMBKFZM3NF&marketplaceID=A2Q3Y263D00KWC&qid=1781216222&s=merchant-items&sr=1-11",
   },
+  {
+    id: 120,
+    title: "Folia Afora - 3 Filmes Pornôs ",
+    whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20Folia%20Afora",
+    author: "Mauricio Salles Vasconcelos",
+    description:
+      "O romance tem como eixo 3 visões da sexualidade contemporânea difundida em diferentes formas de serialização midiática. Concentra-se no flagrante de comportamentos e revisões de valores envolvendo primeiramente o comércio de imagens. Em seguida, as descobertas do corpo e os modos de conceber sexo na atualidade, desenroladas sob a forma de filmes, culminam numa entrevista-documentário em que um pornógrafo é posto em foco para liberar novas dimensões de desejo e prazer, poética e erotismo.",
+    category: "Narrar, Cartografar",
+    categorylink: "narrar-cartografar",
+    ano: "2026",
+    pag: "265",
+    price: "R$80,00",
+    img: "/img/21.png",
+    buy: "",
+  },
 ];
