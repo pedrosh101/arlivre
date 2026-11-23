@@ -10,8 +10,9 @@ const italicizeWords = (text: string) => {
     .replace(/exemplaridade/gi, "<em>$&</em>");
 };
 
-const Livro = ({ params }: any) => {
-  const livro = projects.find((proj: any) => proj.id.toString() === params.id);
+const Livro = async ({ params }: { params: Promise<{ id: string }> }) => {
+  const { id } = await params;
+  const livro = projects.find((proj: any) => proj.id.toString() === id);
 
   return (
     <>

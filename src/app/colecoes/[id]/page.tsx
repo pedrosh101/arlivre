@@ -1,15 +1,13 @@
-import React from "react";
-
 import Image from "next/image";
 import Link from "next/link";
 import { colecoes } from "../../data/colecao";
 import { projects } from "../../data/projects";
 
-const Colecoes = ({ params }: any) => {
-  const { id } = params;
+const Colecoes = async ({ params }: { params: Promise<{ id: string }> }) => {
+  const { id } = await params;
   const colecao = colecoes.find((item) => item.caminho === id);
   const correspondentes = projects.filter(
-    (project) => project.categorylink === id
+    (project) => project.categorylink === id,
   );
 
   return (
@@ -25,7 +23,10 @@ const Colecoes = ({ params }: any) => {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 mt-12 gap-8">
                 {correspondentes.map((project) => (
-                  <div key={project.id} className="relative h-72 sm:mt-0 mr-4 mb-4">
+                  <div
+                    key={project.id}
+                    className="relative h-72 sm:mt-0 mr-4 mb-4"
+                  >
                     <Link href={`/livro/${project.id}`}>
                       <Image
                         src={project.img}
