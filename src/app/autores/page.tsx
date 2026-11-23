@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import {AuthorInfo} from "../../../types/index"
 
@@ -55,7 +55,7 @@ function Autores() {
     setSelectedAuthor(author);
   };
 
-  const variants = {
+  const variants: Variants = {
     animate: {
       scale: [1, 1.2, 1],
       transition: {
