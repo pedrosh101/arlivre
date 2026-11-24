@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={inter.className}>
         <Navbar />
         <main className="flex justify-between min-h-screen text-black ">
@@ -28,7 +28,7 @@ export default function RootLayout({
           <div className="bg-clr2 w-12 hidden sm:block" />
         </main>
         <div className="flex justify-center bg-clr2 text-white font-parag text-sm h-12 items-center">
-          <p>© 2024 Ar Livre</p>
+          <p>© {new Date().getFullYear()} Ar Livre</p>
         </div>
       </body>
     </html>
