@@ -10,6 +10,7 @@ function Autores() {
   const [selectedAuthor, setSelectedAuthor] = useState<string | null>(null);
 
   const authors = [
+    "Ciro Lubliner",
     "Damián Tabarovsky",
     "Héctor Libertella",
     "Marcus Siqueira",
@@ -48,6 +49,11 @@ function Autores() {
       name: "Marcus Siqueira",
       text: "Natural de Caratinga (MG), Marcus Siqueira estudou composição com Willy Corrêa de Oliveira logo após sua graduação em violão erudito sob orientação de Edelton Gloeden na Universidade de São Paulo (USP). Entre 1993 e 2002, deu continuidade aos seus estudos de composição em aulas particulares com o mestre. Sua produção orquestral soma 19 obras, estreadas por grupos de excelência como a Orquestra Sinfônica do Estado de São Paulo (OSESP), a Filarmônica de Minas Gerais (OFMG), a Orquestra Sinfônica Nacional (OSN) e a Sinfônica da USP (OSUSP). Suas partituras foram regidas por maestros como Joana Carneiro, Ernani Aguiar, Ricardo Bologna, Marcos Arakaki e Luthero Rodrigues. Como arranjador, realizou transcrições para a Banda Sinfônica do Estado de São Paulo e para a Orquestra Brasileira de Sopros de Tatuí.",
       image: "/img/marcus.jpeg",
+    },
+    "Ciro Lubliner": {
+      name: "Ciro Lubliner",
+      text: "Ciro Lubliner é artista, professor, pesquisador e tradutor. Doutor em Comunicação e Cultura (UFRJ), mestre em Literatura Comparada (USP) e bacharel em Imagem e Som (UFSCar). Realizou um pós-doutorado em Estudos da Tradução, na USP, com estágio na Universidade Paris X, e atualmente realiza um segundo pós-doutorado, em Cinema, na UFF. No audiovisual, participou de curtas e médias-metragens em diferentes funções, com destaque para Spectros: algum nome, nenhum rosto (2025), que dirigiu e roteirizou. Na música, integrou as bandas canções para um mundo sem Humanos, Ladies & Gentleman, Banda de Poesia, e mevoi. Traduziu, entre outros, Gertrude Stein, Louis Wolfson, Damián Tabarovsky e Félix Guattari.",
+      image: "/img/ciro.jpg",
     },
   };
 

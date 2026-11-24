@@ -336,7 +336,7 @@ export const projects = [
   },
   {
     id: 120,
-    title: "Folia Afora - 3 Filmes Pornôs ",
+    title: "Folia Afora - 3 Filmes Pornôs",
     whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20Folia%20Afora",
     author: "Mauricio Salles Vasconcelos",
     description:
@@ -347,6 +347,21 @@ export const projects = [
     pag: "265",
     price: "R$80,00",
     img: "/img/21.png",
+    buy: "",
+  },
+  {
+    id: 121,
+    title: "do remix à recomposição",
+    whats: "https://wa.me/5511983833111?text=Tenho%20interesse%20no%20livro%20do%20remix%20a%20recomposicao",
+    author: "Ciro Lubliner",
+    description:
+      " Este livro aposta na construção de uma perspectiva crítica pautada na noção de “recomposição”, afastando-se das análises sobre o tema do reúso na arte contemporânea. O argumento central é que a recomposição atravessa o exercício formal (mashups) e a alteração de contexto (escrita conceitual) – característicos do remix – para renovar, simultaneamente, sentidos e sensações nos materiais apropriados.",
+    category: "Mutações em Tempo Presente",
+    categorylink: "mutacoes-em-tempo-presente",
+    ano: "2026",
+    pag: "207",
+    price: "R$70,00",
+    img: "/img/22.jpg",
     buy: "",
   },
 ];
